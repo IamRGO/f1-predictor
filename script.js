@@ -1,92 +1,69 @@
-// Wait for drivers to load, then render every 500ms max 10 seconds
-function initApp() {
-    let attempts = 0;
-    const maxAttempts = 20;
-    
-    const interval = setInterval(() => {
-        attempts++;
-        
-        if (window.drivers && window.drivers.length > 0) {
-            console.log('Drivers loaded:', window.drivers.length);
-            renderDrivers();
-            fetchWikipediaData();
-            clearInterval(interval);
-        } else if (attempts >= maxAttempts) {
-            console.log('Using backup drivers');
-            window.drivers = [
-                { name: "Max Verstappen backup", team: "Red Bull", championships: 4, wins: 62, podiums: 109, starts: 201, points: 2857, rookie: false },
-                { name: "Charles Leclerc backup", team: "Ferrari", championships: 0, wins: 9, podiums: 30, starts: 145, points: 1078, rookie: false }
-            ];
-            renderDrivers();
-            clearInterval(interval);
-        }
-    }, 500);
+const BASE_URL = "https://ergast.com/api/f1";
+
+// 2026 season (change if needed)
+const SEASON = "2026";
+
+async function fetchDrivers() {
+    const response = await fetch(`${BASE_URL}/${SEASON}/drivers.json`);
+    const data = await response.json();
+    return data.MRData.DriverTable.Drivers;
 }
 
-initApp();
+async function fetchCareerStats(driverId) {
+    let wins = 0;
+    let podiums = 0;
 
-window.onclick = (e) => {
-    if (e.target.id === 'modal') closeModal();
-}
+    // Fetch all race results for driver
+    const response = await fetch(`${BASE_URL}/drivers/${driverId}/results.json?limit=1000`);
+    const data = await response.json();
+    const races = data.MRData.RaceTable.Races;
 
-// Keep all your other functions exactly the same...
-function sortDrivers(drivers) {
-    return drivers.sort((a, b) => {
-        if (a.rookie && !b.rookie) return 1;
-        if (!a.rookie && b.rookie) return -1;
-        if (a.championships !== b.championships) return b.championships - a.championships;
-        if (a.wins !== b.wins) return b.wins - a.wins;
-        return b.points - a.points;
+    races.forEach(race => {
+        race.Results.forEach(result => {
+            const position = parseInt(result.position);
+
+            if (position === 1) wins++;
+            if (position <= 3) podiums++;
+        });
     });
+
+    return { wins, podiums };
 }
 
-async function fetchWikipediaData() {
-    console.log('Wikipedia fetch skipped - using static data');
-}
+function createDriverCard(driver, stats) {
+    const container = document.getElementById("drivers-container");
 
-function renderDrivers() {
-    const grid = document.getElementById('driversGrid');
-    
-    if (!window.drivers || window.drivers.length === 0) {
-        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #ffcc00;">Loading drivers...</div>';
-        return;
-    }
-    
-    const sortedDrivers = sortDrivers([...window.drivers]);
-    
-    grid.innerHTML = sortedDrivers.map(driver => `
-        <div class="driver-card ${driver.rookie ? 'rookie' : ''}" onclick="showModal('${driver.name.replace(/'/g, "\\'")}')">
-            <div class="driver-name">${driver.name}</div>
-            <div class="driver-team">${driver.team}</div>
-            <div class="stats-grid">
-                <div class="stat"><div class="stat-value">${driver.championships}</div><div class="stat-label">Titles</div></div>
-                <div class="stat"><div class="stat-value">${driver.wins}</div><div class="stat-label">Wins</div></div>
-                <div class="stat"><div class="stat-value">${driver.podiums}</div><div class="stat-label">Podiums</div></div>
-                <div class="stat"><div class="stat-value">${driver.starts}</div><div class="stat-label">Starts</div></div>
-                <div class="stat"><div class="stat-value">${driver.points.toLocaleString()}</div><div class="stat-label">Points</div></div>
-            </div>
-            ${driver.rookie ? '<div style="margin-top:10px;color:#00ff88;font-weight:bold;">🥇 ROOKIE</div>' : ''}
-        </div>
-    `).join('');
-}
+    const card = document.createElement("div");
+    card.classList.add("driver-card");
 
-function showModal(driverName) {
-    const driver = window.drivers.find(d => d.name === driverName);
-    if (!driver) return;
-    
-    document.getElementById('modalName').textContent = driver.name;
-    document.getElementById('modalStats').innerHTML = `
-        <p><strong>Team:</strong> ${driver.team}</p>
-        <p><strong>Championships:</strong> ${driver.championships}</p>
-        <p><strong>Wins:</strong> ${driver.wins}</p>
-        <p><strong>Podiums:</strong> ${driver.podiums}</p>
-        <p><strong>Starts:</strong> ${driver.starts.toLocaleString()}</p>
-        <p><strong>Total Points:</strong> ${driver.points.toLocaleString()}</p>
-        ${driver.rookie ? '<p style="color:#00ff88;font-weight:bold;">🥇 Debut Season</p>' : ''}
+    card.innerHTML = `
+        <h2>${driver.givenName} ${driver.familyName}</h2>
+        <p class="stat"><strong>Nationality:</strong> ${driver.nationality}</p>
+        <p class="stat"><strong>Date of Birth:</strong> ${driver.dateOfBirth}</p>
+        <p class="stat"><strong>Career Wins:</strong> ${stats.wins}</p>
+        <p class="stat"><strong>Career Podiums:</strong> ${stats.podiums}</p>
     `;
-    document.getElementById('modal').style.display = 'block';
+
+    container.appendChild(card);
 }
 
-function closeModal() {
-    document.getElementById('modal').style.display = 'none';
+async function loadDrivers() {
+    const container = document.getElementById("drivers-container");
+    container.innerHTML = "<p>Loading 2026 drivers...</p>";
+
+    try {
+        const drivers = await fetchDrivers();
+        container.innerHTML = "";
+
+        for (const driver of drivers) {
+            const stats = await fetchCareerStats(driver.driverId);
+            createDriverCard(driver, stats);
+        }
+
+    } catch (error) {
+        container.innerHTML = "<p>Error loading data.</p>";
+        console.error(error);
+    }
 }
+
+loadDrivers();
