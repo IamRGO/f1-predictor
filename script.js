@@ -1,4 +1,35 @@
-// Sort: championships > wins > points (rookies last)
+// Wait for drivers to load, then render every 500ms max 10 seconds
+function initApp() {
+    let attempts = 0;
+    const maxAttempts = 20; // 10 seconds
+    
+    const interval = setInterval(() => {
+        attempts++;
+        
+        if (window.drivers && window.drivers.length > 0) {
+            console.log('Drivers loaded:', window.drivers.length);
+            renderDrivers();
+            fetchWikipediaData();
+            clearInterval(interval);
+        } else if (attempts >= maxAttempts) {
+            console.log('Using backup drivers');
+            window.drivers = [
+                { name: "Max Verstappen", team: "Red Bull", championships: 4, wins: 62, podiums: 109, starts: 201, points: 2857, rookie: false },
+                { name: "Charles Leclerc", team: "Ferrari", championships: 0, wins: 9, podiums: 30, starts: 145, points: 1078, rookie: false }
+            ];
+            renderDrivers();
+            clearInterval(interval);
+        }
+    }, 500);
+}
+
+initApp();
+
+window.onclick = (e) => {
+    if (e.target.id === 'modal') closeModal();
+}
+
+// Keep all your other functions exactly the same...
 function sortDrivers(drivers) {
     return drivers.sort((a, b) => {
         if (a.rookie && !b.rookie) return 1;
@@ -9,24 +40,15 @@ function sortDrivers(drivers) {
     });
 }
 
-// Wikipedia API fetch function (add CORS proxy later)
 async function fetchWikipediaData() {
-    try {
-        const response = await fetch('https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=List_of_Formula_One_drivers&origin=*');
-        const data = await response.json();
-        console.log('Wikipedia data:', data);
-    } catch (error) {
-        console.log('Wikipedia fetch failed, using cached data');
-    }
+    console.log('Wikipedia fetch skipped - using static data');
 }
 
-// Render drivers
 function renderDrivers() {
     const grid = document.getElementById('driversGrid');
     
-    // Wait for drivers to be loaded from data.js
     if (!window.drivers || window.drivers.length === 0) {
-        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #ffcc00;">Loading F1 drivers from Wikipedia...</div>';
+        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #ffcc00;">Loading drivers...</div>';
         return;
     }
     
@@ -67,21 +89,4 @@ function showModal(driverName) {
 
 function closeModal() {
     document.getElementById('modal').style.display = 'none';
-}
-
-// Load when page + data ready
-function initApp() {
-    renderDrivers();
-    fetchWikipediaData();
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initApp);
-} else {
-    initApp();
-}
-
-// Close modal on outside click
-window.onclick = (e) => {
-    if (e.target.id === 'modal') closeModal();
 }
