@@ -1,37 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>2026 F1 Drivers & Stats</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #111; color: #eee; }
-    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
-    th, td { border: 1px solid #444; padding: 8px; text-align: left; }
-    th { background: #222; }
-    .loader { margin-top: 1rem; }
-  </style>
+    <title>F1 2026 Drivers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
-  <h1>2026 F1 Drivers & Stats</h1>
-  <p>Data live‑scraped from Wikipedia using their public API.</p>
-
-  <div class="loader" id="loader">Loading drivers and stats…</div>
-  <table id="driversTable" style="display:none;">
-    <thead>
-      <tr>
-        <th>No.</th>
-        <th>Driver</th>
-        <th>Team</th>
-        <th>Nationality</th>
-        <th>DOB</th>
-        <th>Wins</th>
-        <th>Podiums</th>
-        <th>Titles</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
-  <script src="app.js"></script>
+    <h1>2026 F1 Drivers</h1>
+    <div id="drivers-container"></div>
 </body>
 </html>
