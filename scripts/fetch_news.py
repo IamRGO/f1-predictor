@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
 """Fetch and condense F1 news articles for use in predictions."""
 import json
-import os
 from datetime import datetime
 from pathlib import Path
-
-import requests
 
 
 def fetch_f1_news(limit=5):
     """
-    Fetch latest F1 news articles from NewsAPI.
-    Falls back to RSS-based approach if API unavailable.
+    Fetch latest F1 news articles from RSS feeds.
 
     Args:
         limit: Number of articles to fetch (default 5)
@@ -19,74 +15,14 @@ def fetch_f1_news(limit=5):
     Returns:
         List of dictionaries with condensed articles
     """
-    articles = []
-
-    # Try NewsAPI approach
-    try:
-        articles = _fetch_from_newsapi(limit)
-        if articles:
-            return articles
-    except Exception as e:
-        print(f"NewsAPI failed: {e}. Trying RSS feed fallback...")
-
-    # Fallback to RSS-based scraping
     try:
         articles = _fetch_from_rss(limit)
         if articles:
             return articles
     except Exception as e:
-        print(f"RSS fallback failed: {e}")
+        print(f"RSS fetch failed: {e}")
 
     return []
-
-
-def _fetch_from_newsapi(limit=5):
-    """Fetch F1 news from NewsAPI.org (free tier)."""
-    api_key = os.environ.get("NEWS_API_KEY", "")
-
-    # Using a fallback approach without API key - NewsAPI free tier allows
-    # limited requests without a key, but recommends using one
-    url = "https://newsapi.org/v2/everything"
-    params = {
-        "q": "Formula 1 F1",
-        "sortBy": "publishedAt",
-        "language": "en",
-        "pageSize": limit,
-    }
-
-    if api_key:
-        params["apiKey"] = api_key
-
-    response = requests.get(url, params=params, timeout=10)
-    response.raise_for_status()
-
-    data = response.json()
-
-    if data.get("status") != "ok":
-        # If we hit rate limit or error without API key, return empty
-        raise Exception(f"NewsAPI error: {data.get('message', 'Unknown error')}")
-
-    articles = []
-    for article in data.get("articles", [])[:limit]:
-        title = article.get("title", "")
-        description = article.get("description", "")
-        content = article.get("content", "")
-        url = article.get("url", "")
-        published_at = article.get("publishedAt", "")
-
-        # Condense to a short paragraph
-        condensed = _condense_article(title, description, content)
-
-        if condensed:
-            articles.append({
-                "title": title,
-                "summary": condensed,
-                "source": article.get("source", {}).get("name", "Unknown"),
-                "published_at": published_at,
-                "url": url,
-            })
-
-    return articles
 
 
 def _fetch_from_rss(limit=5):
