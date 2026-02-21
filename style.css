@@ -1,14 +1,449 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #111;
-    color: white;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.driver-card {
-    background: #222;
-    margin: 15px auto;
-    padding: 15px;
-    border-radius: 10px;
-    width: 300px;
+:root {
+    --primary-red: #dc143c;
+    --primary-gold: #c9a961;
+    --primary-dark: #0f0f0f;
+    --primary-gray: #1a1a1a;
+    --secondary-gray: #252525;
+    --text-light: #ffffff;
+    --text-dim: #a8a8a8;
+    --border-subtle: #333333;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(180deg, #0f0f0f 0%, #151515 100%);
+    color: var(--text-light);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Subtle starfield background */
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.stars::before,
+.stars::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    box-shadow:
+        100px 100px rgba(255, 255, 255, 0.15),
+        200px 200px rgba(255, 255, 255, 0.1),
+        300px 50px rgba(255, 255, 255, 0.12),
+        400px 300px rgba(255, 255, 255, 0.08),
+        500px 150px rgba(255, 255, 255, 0.15),
+        600px 250px rgba(255, 255, 255, 0.05),
+        100px 400px rgba(255, 255, 255, 0.1),
+        200px 500px rgba(255, 255, 255, 0.15),
+        700px 100px rgba(255, 255, 255, 0.12),
+        800px 400px rgba(255, 255, 255, 0.08);
+    animation: twinkle-subtle 4s ease-in-out infinite;
+}
+
+@keyframes twinkle-subtle {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 50px 20px 40px;
+    background: transparent;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--text-light);
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.gemini-text {
+    color: var(--primary-gold);
+    font-weight: 600;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px 20px;
+    flex: 1;
+}
+
+/* Race Info Section */
+.race-info-section {
+    margin-bottom: 60px;
+}
+
+.race-header {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.race-name {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.race-meta {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.location, .date {
+    font-size: 1rem;
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+/* Prediction Section */
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: var(--primary-gold);
+    font-weight: 600;
+}
+
+.prediction-section {
+    margin-bottom: 60px;
+}
+
+.podium {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    gap: 25px;
+    margin: 40px 0;
+    align-items: flex-end;
+    justify-items: center;
+}
+
+.podium-slot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.medal {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.podium-card {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.podium-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary-gold);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.podium-card.winner {
+    background: rgba(201, 169, 97, 0.08);
+    border: 1px solid var(--primary-gold);
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(201, 169, 97, 0.1);
+}
+
+.podium-card.winner:hover {
+    transform: scale(1.03) translateY(-4px);
+}
+
+.driver-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-light);
+}
+
+.podium-label {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
+
+.first-place .driver-name {
+    color: var(--primary-gold);
+    font-size: 1.4rem;
+}
+
+/* Reasoning Section */
+.reasoning-section {
+    margin-bottom: 60px;
+}
+
+.reasoning-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reasoning-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.prediction-time {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-subtle);
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+/* Team Logos Section */
+.team-logos-section {
+    margin-bottom: 60px;
+}
+
+.team-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+}
+
+.team-logo {
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent;
+}
+
+.team-logo:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Footer */
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 40px 20px;
+    background: transparent;
+    border-top: 1px solid var(--border-subtle);
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+footer strong {
+    color: var(--primary-gold);
+    font-weight: 600;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    color: var(--primary-gold);
+    text-decoration: none;
+    border: 1px solid var(--primary-gold);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.social-link:hover {
+    background: rgba(201, 169, 97, 0.1);
+    box-shadow: 0 4px 8px rgba(201, 169, 97, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .podium {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .podium-card.winner {
+        transform: scale(1);
+    }
+
+    .podium-slot.first-place {
+        order: -1;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .race-header {
+        padding: 25px;
+    }
+
+    .race-name {
+        font-size: 1.6rem;
+    }
+
+    .reasoning-card {
+        padding: 25px;
+    }
+
+    .reasoning-card p {
+        font-size: 0.95rem;
+    }
+
+    .team-logos {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    header {
+        padding: 40px 20px 30px;
+    }
+
+    .container {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.6rem;
+        letter-spacing: 0.5px;
+    }
+
+    .race-meta {
+        gap: 15px;
+        font-size: 0.85rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .podium {
+        gap: 10px;
+    }
+
+    .driver-name {
+        font-size: 1.1rem;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+
+    .social-link {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+        gap: 4px;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+
+    .race-header {
+        padding: 20px;
+    }
+
+    .reasoning-card {
+        padding: 20px;
+    }
 }

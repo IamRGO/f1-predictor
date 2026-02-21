@@ -1,116 +1,52 @@
-const API_BASE = "https://en.wikipedia.org/w/api.php?origin=*";
+async function loadPredictions() {
+    try {
+        const response = await fetch('./data/predictions.json');
+        const data = await response.json();
 
-async function getPageContent(title) {
-    const url = `${API_BASE}&action=parse&page=${encodeURIComponent(title)}&format=json`;
+        // Update race info
+        const nextRace = data.next_race;
+        document.getElementById('raceName').textContent = nextRace.race_name;
+        document.getElementById('raceLocation').textContent = `🌍 ${nextRace.country} - ${nextRace.circuit}`;
 
-    const response = await fetch(url);
-    const data = await response.json();
+        // Format date
+        const raceDate = new Date(nextRace.date_start);
+        const formattedDate = raceDate.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        document.getElementById('raceDate').textContent = `📅 ${formattedDate}`;
 
-    if (!data.parse || !data.parse.text) {
-        console.error("Wikipedia API error:", data);
-        return null;
-    }
+        // Update podium predictions
+        const prediction = data.prediction;
+        document.getElementById('driver1').textContent = prediction.podium['1st'];
+        document.getElementById('driver2').textContent = prediction.podium['2nd'];
+        document.getElementById('driver3').textContent = prediction.podium['3rd'];
 
-    return data.parse.text["*"];
-}
+        // Update reasoning
+        document.getElementById('reasoning').textContent = prediction.reason;
 
-function extractDriversFromEntries(html) {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
+        // Update prediction time
+        const predictionDate = new Date(data.predicted_at);
+        const formattedPredictionTime = predictionDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            timeZone: 'UTC'
+        });
+        document.getElementById('predictionTime').textContent = `Prediction generated: ${formattedPredictionTime} UTC`;
 
-    const tables = doc.querySelectorAll("table.wikitable");
-
-    for (const table of tables) {
-        const headerRow = table.querySelector("tr");
-        if (!headerRow) continue;
-
-        const headers = Array.from(headerRow.querySelectorAll("th"))
-            .map(th => th.textContent.toLowerCase());
-
-        // Identify the Entries table
-        if (headers.includes("entrant") && headers.includes("constructor")) {
-
-            let drivers = [];
-            const rows = table.querySelectorAll("tr");
-
-            rows.forEach((row, index) => {
-                if (index === 0) return; // skip header
-
-                const cells = row.querySelectorAll("td");
-
-                // Drivers are usually in 3rd and 4th column
-                if (cells.length >= 4) {
-                    const driver1 = cells[2].querySelector("a");
-                    const driver2 = cells[3].querySelector("a");
-
-                    if (driver1) drivers.push(driver1.getAttribute("title"));
-                    if (driver2) drivers.push(driver2.getAttribute("title"));
-                }
-            });
-
-            return drivers;
-        }
-    }
-
-    console.error("Entries table not found.");
-    return [];
-}
-
-async function getDriverWins(driverName) {
-    const html = await getPageContent(driverName);
-
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-
-    const rows = doc.querySelectorAll("table.infobox tr");
-
-    let wins = "N/A";
-
-    rows.forEach(row => {
-        if (row.textContent.includes("Wins")) {
-            wins = row.querySelector("td")?.textContent.trim();
-        }
-    });
-
-    return wins;
-}
-
-async function loadDrivers() {
-    const container = document.getElementById("Entries");
-
-    if (!container) {
-        console.error("Entries div not found");
-        return;
-    }
-
-    container.innerHTML = "Loading drivers...";
-
-    const pageHTML = await getPageContent("2026_Formula_One_World_Championship");
-
-    if (!pageHTML) {
-        container.innerHTML = "Failed to load Wikipedia page.";
-        return;
-    }
-
-    const drivers = extractDriversFromEntries(pageHTML);
-
-    if (!drivers.length) {
-        container.innerHTML = "No drivers found.";
-        return;
-    }
-
-    container.innerHTML = "";
-
-    for (const driver of drivers.slice(0, 10)) {
-        const wins = await getDriverWins(driver);
-
-        container.innerHTML += `
-            <div class="driver-card">
-                <h2>${driver}</h2>
-                <p>Wins: ${wins}</p>
-            </div>
-        `;
+    } catch (error) {
+        console.error('Error loading predictions:', error);
+        document.getElementById('reasoning').textContent = 'Error loading predictions. Please refresh the page.';
     }
 }
 
-loadDrivers();
+// Load predictions when page loads
+document.addEventListener('DOMContentLoaded', loadPredictions);
