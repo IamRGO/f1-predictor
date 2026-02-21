@@ -1,0 +1,18 @@
+{
+  "next_race": {
+    "race_name": "Melbourne",
+    "circuit": "Melbourne",
+    "country": "Australia",
+    "date_start": "2026-03-08T04:00:00+00:00",
+    "meeting_key": 1279
+  },
+  "prediction": {
+    "podium": {
+      "1st": "Lando Norris",
+      "2nd": "Oscar Piastri",
+      "3rd": "Max Verstappen"
+    },
+    "reason": "Lando Norris won the 2025 Australian Grand Prix, and McLaren's consistent dominance throughout the 2025 season suggests they will be the team to beat in the 2026 opener, with Piastri strongly favored to reach the podium at his home race."
+  },
+  "predicted_at": "2026-02-21T19:28:46.353842Z"
+}
