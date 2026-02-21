@@ -102,6 +102,9 @@ def predict_podium(next_race: dict, history: str, news_summary: str = None):
 Predict the podium for the next race. Respond with ONLY valid JSON in this exact format, no other text:
 {{"podium": {{"1st": "Driver Name", "2nd": "Driver Name", "3rd": "Driver Name"}}, "reason": "Brief explanation"}}"""
 
+    print("\n--- Prompt to Gemini ---")
+    print(prompt)
+
     response = client.models.generate_content(
         model="gemini-3-flash-preview",
         contents=prompt,
