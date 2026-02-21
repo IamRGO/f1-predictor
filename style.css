@@ -702,10 +702,12 @@ footer {
     color: inherit;
     display: block;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .news-link:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .news-card {
