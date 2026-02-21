@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-def fetch_f1_news(limit=5):
+def fetch_f1_news(limit=6):
     """
     Fetch latest F1 news articles from RSS feeds.
 
@@ -25,7 +25,7 @@ def fetch_f1_news(limit=5):
     return []
 
 
-def _fetch_from_rss(limit=5):
+def _fetch_from_rss(limit=6):
     """Fallback: Fetch F1 news from multiple RSS feeds."""
     try:
         import feedparser
@@ -136,7 +136,7 @@ def save_news_cache(articles):
 
 def main():
     print("Fetching latest F1 news articles...")
-    articles = fetch_f1_news(limit=5)
+    articles = fetch_f1_news(limit=6)
 
     if not articles:
         print("Failed to fetch any articles. Check your internet connection.")
