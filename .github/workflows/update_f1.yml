@@ -28,6 +28,9 @@ jobs:
       - name: Fetch F1 data
         run: python scripts/fetch.py
 
+      - name: Fetch F1 news
+        run: python scripts/fetch_news.py
+
       - name: Generate predictions
         env:
           GOOGLE_GEMINI_API_KEY: ${{ secrets.GOOGLE_GEMINI_API_KEY }}
