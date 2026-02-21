@@ -8,81 +8,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="stars"></div>
-
     <header class="header">
         <div class="header-content">
-            <h1 class="title">🏎️ F1 Podium AI 🏎️</h1>
-            <p class="subtitle">Powered by <span class="gemini-text">Gemini AI</span></p>
+            <div class="hero-badge">Race Prediction</div>
+            <h1 class="title">Who wins the next race?</h1>
+            <p class="subtitle">Powered by Gemini AI</p>
         </div>
     </header>
 
     <main class="container">
         <section class="race-info-section">
-            <div class="race-header" id="raceHeader">
-                <h2 id="raceName" class="race-name">Loading...</h2>
-                <div class="race-meta">
-                    <span class="location" id="raceLocation">🌍 Location</span>
-                    <span class="date" id="raceDate">📅 Date</span>
+            <div class="race-header">
+                <div class="race-details">
+                    <h2 id="raceName" class="race-name">Loading...</h2>
+                    <div class="race-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Location</span>
+                            <span class="meta-value" id="raceLocation">—</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Date</span>
+                            <span class="meta-value" id="raceDate">—</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="prediction-section">
-            <h2 class="section-title">🏁 Podium Prediction</h2>
+            <h2 class="section-title">Podium Prediction</h2>
             <div class="podium">
                 <!-- 2nd Place -->
                 <div class="podium-slot second-place">
-                    <div class="medal medal-silver">2️⃣</div>
+                    <div class="position-number">2</div>
                     <div class="podium-card">
                         <div class="driver-name" id="driver2">Oscar Piastri</div>
-                        <div class="podium-label">2nd Place</div>
                     </div>
                 </div>
 
                 <!-- 1st Place (Center) -->
                 <div class="podium-slot first-place">
-                    <div class="medal medal-gold">🥇</div>
+                    <div class="position-number">1</div>
                     <div class="podium-card winner">
                         <div class="driver-name" id="driver1">Lando Norris</div>
-                        <div class="podium-label">1st Place</div>
                     </div>
                 </div>
 
                 <!-- 3rd Place -->
                 <div class="podium-slot third-place">
-                    <div class="medal medal-bronze">3️⃣</div>
+                    <div class="position-number">3</div>
                     <div class="podium-card">
                         <div class="driver-name" id="driver3">Max Verstappen</div>
-                        <div class="podium-label">3rd Place</div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="reasoning-section">
-            <h2 class="section-title">💡 AI Reasoning</h2>
+            <h2 class="section-title">Why?</h2>
             <div class="reasoning-card">
                 <p id="reasoning">Loading prediction reasoning...</p>
                 <div class="prediction-time">
-                    <small id="predictionTime">Prediction generated: --</small>
+                    <small id="predictionTime">Prediction generated: —</small>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>🤖 Predictions powered by <strong>Gemini AI</strong> | Formula 1 Predictor © 2026</p>
-        <div class="social-links">
-            <a href="https://github.com/IamRGO" target="_blank" rel="noopener noreferrer" class="social-link">
-                <span>🐙 GitHub</span>
-            </a>
-            <a href="https://www.linkedin.com/in/ricky-go-9240b12ab/" target="_blank" rel="noopener noreferrer" class="social-link">
-                <span>💼 LinkedIn</span>
-            </a>
-            <a href="https://iamrgo.github.io/index.html" target="_blank" rel="noopener noreferrer" class="social-link">
-                <span>🌐 Portfolio</span>
-            </a>
+        <div class="footer-content">
+            <p class="footer-text">Predictions powered by <strong>Gemini AI</strong></p>
+            <div class="social-links">
+                <a href="https://github.com/IamRGO" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/ricky-go-9240b12ab/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                <a href="https://iamrgo.github.io/index.html" target="_blank" rel="noopener noreferrer" class="social-link">Portfolio</a>
+            </div>
+            <p class="footer-copyright">© 2026 F1 Podium AI</p>
         </div>
     </footer>
 
