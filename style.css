@@ -748,7 +748,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    cursor: default;
+    cursor: pointer;
     position: relative;
     overflow: hidden;
     height: 100%;
