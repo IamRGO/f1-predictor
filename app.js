@@ -12,18 +12,23 @@ function loadAnalytics() {
 }
 
 // Cookie consent initialization
-(function initConsent() {
+document.addEventListener('DOMContentLoaded', function initConsent() {
+    const banner = document.getElementById('cookie-banner');
+    if (!banner) return;
+
     const consent = localStorage.getItem('analytics-consent');
+
     if (consent === 'true') {
         loadAnalytics();
         return;
     }
+
     if (consent === 'false') {
         return;
     }
 
-    const banner = document.getElementById('cookie-banner');
-    if (!banner) return;
+    // No consent stored yet - show banner
+    banner.classList.remove('hidden');
 
     document.getElementById('cookie-accept').addEventListener('click', () => {
         localStorage.setItem('analytics-consent', 'true');
@@ -35,7 +40,7 @@ function loadAnalytics() {
         localStorage.setItem('analytics-consent', 'false');
         banner.classList.add('hidden');
     });
-})();
+});
 
 async function loadPredictions() {
     try {
