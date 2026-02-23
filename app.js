@@ -115,16 +115,18 @@ async function loadNews() {
             newsLink.style.animation = `fadeInUp 0.8s ease-out ${0.5 + index * 0.1}s both`;
 
             // Extract date from published_at
-            let pubDate = new Date(article.published_at);
+            let dateHTML = '';
 
-            if (isNaN(pubDate.getTime())) {
-                pubDate = "";
+            if (article.published_at) {
+                let pubDate = new Date(article.published_at);
+                if (!isNaN(pubDate.getTime())) {
+                    const formattedDate = pubDate.toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric'
+                    });
+                    dateHTML = `<span class="news-date">${formattedDate}</span>`;
+                }
             }
-
-            const formattedDate = pubDate.toLocaleDateString('en-US', {
-                month: 'short',
-                day: 'numeric'
-            });
 
             newsLink.innerHTML = `
                 <div class="news-card">
@@ -132,7 +134,7 @@ async function loadNews() {
                     <p class="news-summary">${article.summary}</p>
                     <div class="news-meta">
                         <span class="news-source">${article.source}</span>
-                        <span class="news-date">${formattedDate}</span>
+                        ${dateHTML}
                     </div>
                 </div>
             `;
