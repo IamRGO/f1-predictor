@@ -8,11 +8,11 @@
   },
   "prediction": {
     "podium": {
-      "1st": "Max Verstappen",
-      "2nd": "Oscar Piastri",
-      "3rd": "George Russell"
+      "1st": "Charles Leclerc",
+      "2nd": "Max Verstappen",
+      "3rd": "Lando Norris"
     },
-    "reason": "As F1 enters a new era in 2026, Max Verstappen remains the benchmark for performance, especially following his dominant end to the 2025 season. Oscar Piastri carries significant momentum into his home race after a strong 2025 campaign and 'optimistic' reports from the Bahrain pre-season tests. George Russell is predicted for the final podium spot as Mercedes historically excels during major technical and power unit regulation shifts, having finished 2025 with consistent podium appearances."
+    "reason": "Ferrari enters the 2026 regulation era with the clear advantage after Leclerc topped pre-season testing by nearly a second. Verstappen and Norris remain the most consistent challengers following their dominant 2025 performances and strong testing pace, while Mercedes and Aston Martin appear to be trailing slightly in early reliability and performance."
   },
-  "predicted_at": "2026-02-23T03:39:43.451293Z"
+  "predicted_at": "2026-02-23T03:43:43.359902Z"
 }
