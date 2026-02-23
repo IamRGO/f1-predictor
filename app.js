@@ -106,12 +106,7 @@ async function loadNews() {
             return;
         }
 
-        // select 9 most recent articles, sort by published_at date
-        const recentArticles = articles.sort(
-            (a, b) => new Date(b.published_at) - new Date(a.published_at)
-        ).slice(0, 9);
-
-        recentArticles.forEach((article, index) => {
+        articles.forEach((article, index) => {
             const newsLink = document.createElement('a');
             newsLink.href = article.url;
             newsLink.target = '_blank';
@@ -120,7 +115,12 @@ async function loadNews() {
             newsLink.style.animation = `fadeInUp 0.8s ease-out ${0.5 + index * 0.1}s both`;
 
             // Extract date from published_at
-            const pubDate = new Date(article.published_at);
+            let pubDate = new Date(article.published_at);
+
+            if (isNaN(pubDate.getTime())) {
+                pubDate = "";
+            }
+
             const formattedDate = pubDate.toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric'
