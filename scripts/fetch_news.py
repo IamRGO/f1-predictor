@@ -5,7 +5,7 @@ import feedparser
 from datetime import datetime
 from pathlib import Path
 
-ARTICLE_FETCH_LIMIT = 9
+ARTICLE_LIMIT_PER_SOURCE = 3
 
 RSS_FEEDS = [
     "https://www.formula1.com/en/latest/all.xml",
@@ -21,10 +21,6 @@ def fetch_f1_news():
     except Exception as e:
         print(f"RSS fetch failed: {e}")
 
-    # store the latest ARTICLE_FETCH_LIMIT articles in cache
-    articles.sort(key=lambda x: x.get("published_at", ""), reverse=True)
-    articles = articles[:ARTICLE_FETCH_LIMIT]
-
     # Save to cache
     _save_news_cache(articles)
 
@@ -36,7 +32,7 @@ def _fetch_from_rss():
         try:
             feed = feedparser.parse(rss_url)
 
-            for entry in feed.entries[:ARTICLE_FETCH_LIMIT]:
+            for entry in feed.entries[:ARTICLE_LIMIT_PER_SOURCE]:
                 title = entry.get("title", "")
                 summary = entry.get("summary", "") or entry.get("description", "")
                 link = entry.get("link", "")
@@ -54,9 +50,6 @@ def _fetch_from_rss():
                         "published_at": published,
                         "url": link,
                     })
-
-            if articles:
-                return articles[:ARTICLE_FETCH_LIMIT]
         except Exception as e:
             continue  # Try next feed on error
 
