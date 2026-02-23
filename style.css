@@ -225,18 +225,6 @@ header {
     word-wrap: break-word;
 }
 
-.subtitle {
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: var(--text-secondary);
-    letter-spacing: 0.3px;
-    animation: fadeInUp 0.8s ease-out 0.3s both;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
 /* ========== MAIN CONTAINER ========== */
 .container {
     position: relative;
@@ -470,7 +458,7 @@ header {
 
 .podium-card.winner .driver-name {
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -962,11 +950,11 @@ footer {
     }
 
     .race-name {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .position-number {
-        font-size: 1.6rem;
+        display: none;
     }
 
     .podium-card {
@@ -995,6 +983,14 @@ footer {
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .news-card {
+        min-height: unset;
+    }
+
+    .position-bar {
+        display: none;
     }
 }
 
