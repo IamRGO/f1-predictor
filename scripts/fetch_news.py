@@ -57,10 +57,10 @@ def _fetch_from_rss():
 
 def _extract_source_name(rss_url):
     """Extract source name from RSS feed URL."""
-    if "motorsport" in rss_url:
-        return "Motorsport.com"
-    elif "sky" in rss_url:
-        return "Sky Sports"
+    if "formula1" in rss_url:
+        return "F1 News"
+    elif "racer" in rss_url:
+        return "Racer.com"
     elif "bbci" in rss_url:
         return "BBC Sport"
     else:
