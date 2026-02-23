@@ -5,7 +5,7 @@ function loadAnalytics() {
     script.src = 'https://www.googletagmanager.com/gtag/js?id=G-2WB20LY88X';
     document.head.appendChild(script);
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag() { dataLayer.push(arguments); }
     window.gtag = gtag;
     gtag('js', new Date());
     gtag('config', 'G-2WB20LY88X');
@@ -106,7 +106,12 @@ async function loadNews() {
             return;
         }
 
-        articles.forEach((article, index) => {
+        // select 9 most recent articles, sort by published_at date
+        const recentArticles = articles.sort(
+            (a, b) => new Date(b.published_at) - new Date(a.published_at)
+        ).slice(0, 9);
+
+        recentArticles.forEach((article, index) => {
             const newsLink = document.createElement('a');
             newsLink.href = article.url;
             newsLink.target = '_blank';
