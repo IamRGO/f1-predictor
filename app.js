@@ -79,7 +79,6 @@ async function loadPredictions() {
             day: 'numeric',
             hour: '2-digit',
             minute: '2-digit',
-            second: '2-digit',
             timeZone: 'UTC'
         });
         document.getElementById('predictionTime').textContent = `Prediction generated: ${formattedPredictionTime} UTC`;
