@@ -14,7 +14,8 @@
     --text-secondary: #a1a1a6;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -33,43 +34,99 @@ body {
 
 /* ========== KEYFRAME ANIMATIONS ========== */
 @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes fadeInDown {
-    from { opacity: 0; transform: translateY(-30px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes scaleIn {
-    from { opacity: 0; transform: scale(0.9); }
-    to { opacity: 1; transform: scale(1); }
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 @keyframes slideInLeft {
-    from { opacity: 0; transform: translateX(-40px); }
-    to { opacity: 1; transform: translateX(0); }
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @keyframes slideInRight {
-    from { opacity: 0; transform: translateX(40px); }
-    to { opacity: 1; transform: translateX(0); }
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 @keyframes glow {
-    0%, 100% { box-shadow: 0 0 20px rgba(220, 20, 60, 0), 0 4px 20px rgba(0, 0, 0, 0.3); }
-    50% { box-shadow: 0 0 30px rgba(220, 20, 60, 0.3), 0 4px 20px rgba(0, 0, 0, 0.3); }
+
+    0%,
+    100% {
+        box-shadow: 0 0 20px rgba(220, 20, 60, 0), 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(220, 20, 60, 0.3), 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
 }
 
 @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
 }
 
 /* ========== BACKGROUND GRAPHICS ========== */
@@ -234,6 +291,11 @@ header {
 }
 
 .race-flag {
+    font-size: 3rem;
+}
+
+.mobile-race-flag {
+    display: none;
     font-size: 3rem;
 }
 
@@ -881,7 +943,12 @@ footer {
     }
 
     .race-flag {
-        font-size: 2.5rem;
+        display: none;
+    }
+
+    .mobile-race-flag {
+        display: inline-block;
+        margin-right: 15px;
     }
 
     .section-title {
