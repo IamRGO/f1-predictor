@@ -275,6 +275,7 @@ header {
 
 .race-header {
     display: flex;
+    align-items: center;
     gap: 25px;
     padding: 25px;
     background: rgba(255, 255, 255, 0.03);
@@ -294,20 +295,9 @@ header {
     font-size: 3rem;
 }
 
-.mobile-race-flag {
-    display: none;
-    font-size: 3rem;
-}
-
-.race-details {
-    text-align: left;
-    flex: 1;
-}
-
 .race-name {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 12px;
     color: var(--text-primary);
     letter-spacing: -0.5px;
     transition: color 0.3s ease;
@@ -318,7 +308,8 @@ header {
 }
 
 .race-meta {
-    display: grid;
+    display: flex;
+    flex: 1;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
@@ -934,21 +925,18 @@ footer {
 
     .race-header {
         flex-direction: column;
+        align-items: flex-start;
         gap: 15px;
     }
 
     .race-meta {
         grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 15px;
     }
 
     .race-flag {
         display: none;
-    }
-
-    .mobile-race-flag {
-        display: inline-block;
-        margin-right: 15px;
     }
 
     .section-title {
