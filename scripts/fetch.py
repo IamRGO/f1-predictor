@@ -15,7 +15,13 @@ def get_meetings_by_key(year):
 def get_race_results(session_key):
     url = f"https://api.openf1.org/v1/session_result?session_key={session_key}"
     print(url)
-    return requests.get(url).json()
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
+        print(f"Failed to fetch data for session_key {session_key}: {e}")
+        return []
 
 data_path = Path("data/f1_race_results.json")
 existing = json.loads(data_path.read_text()) if data_path.exists() else {}
@@ -24,16 +30,12 @@ def load_driver_info(year):
     path = Path(f"data/{year}.json")
     return json.loads(path.read_text()) if path.exists() else {}
 
-def get_race_results(session_key):
-    url = f"https://api.openf1.org/v1/session_result?session_key={session_key}"
-    print(url)
-    try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"Failed to fetch data for session_key {session_key}: {e}")
-        return []
+def add_driver_info_to_results(results, drivers):
+    for r in results:
+        driver_num = r.get("driver_number")
+        if driver_num is not None and str(driver_num) in drivers:
+            r["driver"] = drivers[str(driver_num)]
+    return results
 
 all_races = {}
 
