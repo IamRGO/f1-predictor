@@ -25,10 +25,21 @@ def load_driver_info(year):
     return json.loads(path.read_text()) if path.exists() else {}
 
 def add_driver_info_to_results(results, drivers):
+    """Attach driver metadata to each result, guarding against bad items.
+
+    OpenF1 should return a list of dicts, but CI has seen other types
+    (e.g. None/ints), which makes r.get(...) crash.
+    """
+    if not isinstance(results, list):
+        return results
+
     for r in results:
+        if not isinstance(r, dict):
+            continue
         driver_num = r.get("driver_number")
         if driver_num is not None and str(driver_num) in drivers:
             r["driver"] = drivers[str(driver_num)]
+
     return results
 
 all_races = {}
