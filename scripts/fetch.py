@@ -26,6 +26,8 @@ def load_driver_info(year):
 
 def add_driver_info_to_results(results, drivers):
     for r in results:
+        if not isinstance(r, dict):
+            continue
         driver_num = r.get("driver_number")
         if driver_num is not None and str(driver_num) in drivers:
             r["driver"] = drivers[str(driver_num)]
