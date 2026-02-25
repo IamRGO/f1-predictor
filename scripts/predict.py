@@ -48,9 +48,10 @@ def load_historical_data():
     summary = []
     for year, races in sorted(data.items(), reverse=True)[:2]:  # last 2 years
         for r in races:
-            if r.get("results"):
+            results = r.get("results") or []
+            if results:
                 podium = [
-                    next((x for x in r["results"] if x.get("position") == p), None)
+                    next((x for x in results if isinstance(x, dict) and x.get("position") == p), None)
                     for p in (1, 2, 3)
                 ]
                 names = []
