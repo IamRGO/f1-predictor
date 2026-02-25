@@ -15,13 +15,7 @@ def get_meetings_by_key(year):
 def get_race_results(session_key):
     url = f"https://api.openf1.org/v1/session_result?session_key={session_key}"
     print(url)
-    try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"Failed to fetch data for session_key {session_key}: {e}")
-        return []
+    return requests.get(url).json()
 
 data_path = Path("data/f1_race_results.json")
 existing = json.loads(data_path.read_text()) if data_path.exists() else {}
