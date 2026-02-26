@@ -89,6 +89,10 @@ async function loadPredictions() {
     }
 }
 
+// loadNews() groups allArticles by article.source, cycling through each source,
+// picking one article from different sources at a time until it has up to 9.
+// This means that if multiple sources are present in f1_news_cache.json,
+// the page will always show a mix instead of potentially showing items from only a single source.
 async function loadNews() {
     try {
         const response = await fetch('./data/f1_news_cache.json');
