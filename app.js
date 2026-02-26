@@ -93,8 +93,36 @@ async function loadNews() {
     try {
         const response = await fetch('./data/f1_news_cache.json');
         const data = await response.json();
-        // Only show up to 9 news items on the site
-        const articles = (data.articles || []).slice(0, 9);
+        const allArticles = data.articles || [];
+
+        // Select up to 9 articles, preferring diversity across sources
+        const articlesBySource = {};
+        allArticles.forEach((article) => {
+            const source = article.source || 'Unknown';
+            if (!articlesBySource[source]) {
+                articlesBySource[source] = [];
+            }
+            articlesBySource[source].push(article);
+        });
+
+        const maxArticles = 9;
+        const articles = [];
+        let sources = Object.keys(articlesBySource);
+
+        // Round-robin pick from each source to avoid showing only one source
+        while (articles.length < maxArticles && sources.length > 0) {
+            const nextSources = [];
+            for (const source of sources) {
+                const list = articlesBySource[source];
+                if (list.length > 0 && articles.length < maxArticles) {
+                    articles.push(list.shift());
+                }
+                if (list.length > 0) {
+                    nextSources.push(source);
+                }
+            }
+            sources = nextSources;
+        }
 
         const newsContainer = document.getElementById('newsContainer');
         newsContainer.innerHTML = '';
