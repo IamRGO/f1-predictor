@@ -5,7 +5,7 @@ import feedparser
 from datetime import datetime
 from pathlib import Path
 
-ARTICLE_LIMIT_PER_SOURCE = 10
+ARTICLE_LIMIT_PER_SOURCE = 3
 
 RSS_FEEDS = [
     "https://www.formula1.com/en/latest/all.xml",
