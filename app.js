@@ -93,7 +93,8 @@ async function loadNews() {
     try {
         const response = await fetch('./data/f1_news_cache.json');
         const data = await response.json();
-        const articles = data.articles || [];
+        // Only show up to 9 news items on the site
+        const articles = (data.articles || []).slice(0, 9);
 
         const newsContainer = document.getElementById('newsContainer');
         newsContainer.innerHTML = '';
