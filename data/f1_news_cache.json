@@ -1,6 +1,20 @@
 {
-  "fetched_at": "2026-03-01T01:07:19.026760Z",
+  "fetched_at": "2026-03-02T01:00:29.775948Z",
   "articles": [
+    {
+      "title": "The family tree of F1's 11 teams and how they came to be",
+      "summary": "The family tree of F1's 11 teams and how they came to be. With 11 teams on the grid for the first time in a decade, F1.com explores the origins of every squad.",
+      "source": "F1 News",
+      "published_at": "",
+      "url": "https://www.formula1.com/en/latest/article/the-family-tree-f1-11-teams-and-how-they-came-to-be.2QBA1PPMf0bC8mp2xxqZeq"
+    },
+    {
+      "title": "What F1 drivers have been up to in February",
+      "summary": "What F1 drivers have been up to in February. It\u2019s been a busy February for the grid, with testing in Barcelona and Bahrain, training camps and final season preparations \u2013 here\u2019s a recap of everything the F1 drivers have been up to before the season kicks off next week.",
+      "source": "F1 News",
+      "published_at": "",
+      "url": "https://www.formula1.com/en/latest/article/meeting-carlos-alcaraz-and-final-days-off-what-f1-drivers-have-been-up-to-in.4Yqc3HtvSEcBGkRNXcxOYp"
+    },
     {
       "title": "How Drive to Survive changed fandom and racing culture",
       "summary": "How Drive to Survive changed fandom and racing culture. Ever since its debut in 2019, Drive to Survive has captivated audiences from across the world \u2013 here\u2019s how it has changed F1 fandom and culture.",
@@ -58,18 +72,11 @@
       "url": "https://www.formula1.com/en/latest/article/in-numbers-the-incredible-figures-behind-season-8-of-drive-to-survive.G3lrcwjsQWk9ISGaAU0oV"
     },
     {
-      "title": "5 standout moments in Season 8 of Drive to Survive",
-      "summary": "5 standout moments in Season 8 of Drive to Survive. After the Barcelona Shakedown and two weeks of pre-season testing in Bahrain, it\u2019s almost time to kick off F1\u2019s new era with the Australian Grand Prix \u2013 but before that, Drive to Survive returns to our screens on Netflix for one last look at 2025. ...",
-      "source": "F1 News",
-      "published_at": "",
-      "url": "https://www.formula1.com/en/latest/article/from-doohans-demotion-to-a-las-vegas-team-boss-special-5-standout-moments-in.1mO7XZr0t8bsGj1p5tVvbQ"
-    },
-    {
-      "title": "Watch the ultimate guide to the 2026 cars",
-      "summary": "Watch the ultimate guide to the 2026 cars. It's all to play for in 2026 as an overhaul of the regulations is set to shake up the competitive order, with slimmed down cars and technical innovations at the forefront of the changes.",
-      "source": "F1 News",
-      "published_at": "",
-      "url": "https://www.formula1.com/en/latest/article/watch-the-ultimate-guide-to-the-2026-cars.1xcg2ITfiXBOjrR4QGmuer"
+      "title": "FIA to revise compression ratio tests from June",
+      "summary": "FIA to revise compression ratio tests from June. Changes to compression ratio tests will be introduced in the summer after a lot of focus on Mercedes' new power unit over pre-season.",
+      "source": "Racer.com",
+      "published_at": "Sun, 01 Mar 2026 14:21:05 GMT",
+      "url": "https://racer.com/2026/03/01/fia-to-revise-compression-ratio-tests-from-june"
     },
     {
       "title": "Cadillac names first F1 chassis after Mario Andretti",
@@ -135,11 +142,11 @@
       "url": "https://racer.com/2026/02/23/why-cadillac-has-already-earned-the-respect-of-its-rivals"
     },
     {
-      "title": "Apple reach \u2018will be even bigger in the future\u2019 than ESPN - Domenicali",
-      "summary": "Apple reach \u2018will be even bigger in the future\u2019 than ESPN - Domenicali. F1 CEO Stefano Domenicali believes Apple can have a greater reach than ESPN did as F1's U.S. broadcaster.",
-      "source": "Racer.com",
-      "published_at": "Mon, 23 Feb 2026 13:01:35 GMT",
-      "url": "https://racer.com/2026/02/23/apple-s-f1-broadcast-reach-will-be-bigger-than-espn-s---domenicali"
+      "title": "Predict F1 drivers' and constructors' championships",
+      "summary": "Predict F1 drivers' and constructors' championships. With the 2026 F1 season ushering in a new era of cars and regulations, make your predictions for how the drivers' and constructors' championships will finish.",
+      "source": "F1 News",
+      "published_at": "Sun, 01 Mar 2026 08:10:10 GMT",
+      "url": "https://www.bbc.com/sport/formula1/articles/c4gj2rzedkeo?at_medium=RSS&at_campaign=rss"
     },
     {
       "title": "F1 to revise engine rule at centre of row",
@@ -203,13 +210,6 @@
       "source": "F1 News",
       "published_at": "Tue, 24 Feb 2026 07:41:23 GMT",
       "url": "https://www.bbc.com/sport/formula1/articles/ckg3y15zje8o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Who are the winners and losers from F1 pre-season testing?",
-      "summary": "Who are the winners and losers from F1 pre-season testing?. As pre-season testing reaches its conclusion, which teams look best - and worst - placed ahead of the Australian Grand Prix?",
-      "source": "F1 News",
-      "published_at": "Fri, 20 Feb 2026 19:44:29 GMT",
-      "url": "https://www.bbc.com/sport/formula1/articles/c77e1djpg3mo?at_medium=RSS&at_campaign=rss"
     }
   ]
 }
