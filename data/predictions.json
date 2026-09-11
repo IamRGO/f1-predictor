@@ -13,29 +13,11 @@
         "2nd": "George Russell",
         "3rd": "Max Verstappen"
       },
-      "reason": "Andrea Kimi Antonelli is in extraordinary form following a legendary win at Monza and currently leads the 2026 championship. Mercedes appears to be the dominant team, making a George Russell podium highly likely. Max Verstappen remains the strongest challenger to the Mercedes duo, despite recent concerns regarding Red Bull's power unit deployment."
+      "reason": "Kimi Antonelli is in exceptional form following a win from 19th at Monza and currently leads the championship. Mercedes appears to have the momentum over Red Bull, which is struggling with power deployment issues, and McLaren, whose drivers have expressed concerns about their car's consistency."
     },
-    "predicted_at": "2026-09-10T01:41:18.577713Z"
+    "predicted_at": "2026-09-11T01:40:23.964204Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Spa-Francorchamps",
-        "circuit": "Spa-Francorchamps",
-        "country": "Belgium",
-        "date_start": "2026-07-19T13:00:00+00:00",
-        "meeting_key": 1290
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Oscar Piastri",
-          "2nd": "Andrea Kimi Antonelli",
-          "3rd": "Max Verstappen"
-        },
-        "reason": "With reigning champion Lando Norris serving a 10-place grid penalty, Oscar Piastri is the clear favorite to lead McLaren's updated package to victory. Andrea Kimi Antonelli is currently the form driver at Mercedes in the title battle, while Max Verstappen's historical dominance at Spa makes him a near-certainty for the podium despite Red Bull's recent stability issues and wing changes."
-      },
-      "predicted_at": "2026-07-17T01:21:07.632056Z"
-    },
     {
       "next_race": {
         "race_name": "Spa-Francorchamps",
@@ -917,6 +899,24 @@
         "reason": "Andrea Kimi Antonelli is in extraordinary form following a legendary win at Monza and currently leads the 2026 championship. Mercedes appears to be the dominant team, making a George Russell podium highly likely. Max Verstappen remains the strongest challenger to the Mercedes duo, despite recent concerns regarding Red Bull's power unit deployment."
       },
       "predicted_at": "2026-09-10T01:41:18.577713Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Madring",
+        "circuit": "Madring",
+        "country": "Spain",
+        "date_start": "2026-09-13T13:00:00+00:00",
+        "meeting_key": 1294
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "George Russell",
+          "3rd": "Max Verstappen"
+        },
+        "reason": "Kimi Antonelli is in exceptional form following a win from 19th at Monza and currently leads the championship. Mercedes appears to have the momentum over Red Bull, which is struggling with power deployment issues, and McLaren, whose drivers have expressed concerns about their car's consistency."
+      },
+      "predicted_at": "2026-09-11T01:40:23.964204Z"
     }
   ]
 }
