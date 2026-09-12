@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Andrea Kimi Antonelli",
-        "2nd": "George Russell",
+        "1st": "George Russell",
+        "2nd": "Andrea Kimi Antonelli",
         "3rd": "Max Verstappen"
       },
-      "reason": "Kimi Antonelli is in exceptional form following a win from 19th at Monza and currently leads the championship. Mercedes appears to have the momentum over Red Bull, which is struggling with power deployment issues, and McLaren, whose drivers have expressed concerns about their car's consistency."
+      "reason": "Mercedes dominated Friday practice at the brand-new Madrid street circuit with Russell leading FP1 and Antonelli topping FP2. While McLaren's Lando Norris is on the back foot due to a gearbox issue and Red Bull is still 'getting up to speed,' Verstappen's historical consistency and Mercedes' clear pace advantage make them the favorites for the podium."
     },
-    "predicted_at": "2026-09-11T01:40:23.964204Z"
+    "predicted_at": "2026-09-12T01:46:43.824022Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Spa-Francorchamps",
-        "circuit": "Spa-Francorchamps",
-        "country": "Belgium",
-        "date_start": "2026-07-19T13:00:00+00:00",
-        "meeting_key": 1290
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Kimi Antonelli topped FP2 and Mercedes showed significant pace improvements, making him the favorite for his first Spa win. Max Verstappen remains a specialist at this track and showed consistency in practice. Oscar Piastri is the primary McLaren contender for the podium given Lando Norris faces a 10-place grid penalty for a power unit update."
-      },
-      "predicted_at": "2026-07-18T01:13:23.212619Z"
-    },
     {
       "next_race": {
         "race_name": "Spa-Francorchamps",
@@ -917,6 +899,24 @@
         "reason": "Kimi Antonelli is in exceptional form following a win from 19th at Monza and currently leads the championship. Mercedes appears to have the momentum over Red Bull, which is struggling with power deployment issues, and McLaren, whose drivers have expressed concerns about their car's consistency."
       },
       "predicted_at": "2026-09-11T01:40:23.964204Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Madring",
+        "circuit": "Madring",
+        "country": "Spain",
+        "date_start": "2026-09-13T13:00:00+00:00",
+        "meeting_key": 1294
+      },
+      "prediction": {
+        "podium": {
+          "1st": "George Russell",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Max Verstappen"
+        },
+        "reason": "Mercedes dominated Friday practice at the brand-new Madrid street circuit with Russell leading FP1 and Antonelli topping FP2. While McLaren's Lando Norris is on the back foot due to a gearbox issue and Red Bull is still 'getting up to speed,' Verstappen's historical consistency and Mercedes' clear pace advantage make them the favorites for the podium."
+      },
+      "predicted_at": "2026-09-12T01:46:43.824022Z"
     }
   ]
 }
