@@ -1,41 +1,23 @@
 {
   "latest": {
     "next_race": {
-      "race_name": "Madring",
-      "circuit": "Madring",
-      "country": "Spain",
-      "date_start": "2026-09-13T13:00:00+00:00",
-      "meeting_key": 1294
+      "race_name": "Baku",
+      "circuit": "Baku",
+      "country": "Azerbaijan",
+      "date_start": "2026-09-26T11:00:00+00:00",
+      "meeting_key": 1295
     },
     "prediction": {
       "podium": {
-        "1st": "Lando Norris",
-        "2nd": "Andrea Kimi Antonelli",
-        "3rd": "Max Verstappen"
+        "1st": "Andrea Kimi Antonelli",
+        "2nd": "Max Verstappen",
+        "3rd": "Lando Norris"
       },
-      "reason": "Lando Norris secured pole position on a new street circuit where overtaking is expected to be difficult. Kimi Antonelli, the current championship leader, starts P2 after showing dominant pace in practice, while Max Verstappen starts P3, maintaining his consistent podium presence."
+      "reason": "Antonelli is dominating the 2026 season with eight wins and leads the championship comfortably. Verstappen has strong historical form in Baku, including a win in 2025, and consistently secures podiums, while Norris has shown exceptional qualifying pace despite recent bad luck."
     },
-    "predicted_at": "2026-09-13T01:37:23.952726Z"
+    "predicted_at": "2026-09-14T01:55:36.305884Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Hungaroring",
-        "circuit": "Hungaroring",
-        "country": "Hungary",
-        "date_start": "2026-07-26T13:00:00+00:00",
-        "meeting_key": 1291
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Lando Norris",
-          "3rd": "Max Verstappen"
-        },
-        "reason": "Kimi Antonelli is in peak form with six wins in 2026 and a significant championship lead. Lando Norris won at the Hungaroring in 2025 and showed strong qualifying pace in Belgium, while Verstappen remains a consistent podium threat despite recent technical setbacks."
-      },
-      "predicted_at": "2026-07-21T01:18:20.827041Z"
-    },
     {
       "next_race": {
         "race_name": "Hungaroring",
@@ -917,6 +899,24 @@
         "reason": "Lando Norris secured pole position on a new street circuit where overtaking is expected to be difficult. Kimi Antonelli, the current championship leader, starts P2 after showing dominant pace in practice, while Max Verstappen starts P3, maintaining his consistent podium presence."
       },
       "predicted_at": "2026-09-13T01:37:23.952726Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "Max Verstappen",
+          "3rd": "Lando Norris"
+        },
+        "reason": "Antonelli is dominating the 2026 season with eight wins and leads the championship comfortably. Verstappen has strong historical form in Baku, including a win in 2025, and consistently secures podiums, while Norris has shown exceptional qualifying pace despite recent bad luck."
+      },
+      "predicted_at": "2026-09-14T01:55:36.305884Z"
     }
   ]
 }
