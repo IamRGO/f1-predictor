@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Andrea Kimi Antonelli",
+        "1st": "Lando Norris",
         "2nd": "Max Verstappen",
-        "3rd": "Lando Norris"
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "Antonelli is dominating the 2026 season with eight wins and leads the championship comfortably. Verstappen has strong historical form in Baku, including a win in 2025, and consistently secures podiums, while Norris has shown exceptional qualifying pace despite recent bad luck."
+      "reason": "Lando Norris is the defending champion and 'in-form driver' who showed the fastest pace in Madrid despite a VSC-influenced loss. Max Verstappen won in Baku last year and remains highly consistent, while Andrea Kimi Antonelli is on a hot streak with Mercedes, having won the previous race in Spain."
     },
-    "predicted_at": "2026-09-14T01:55:36.305884Z"
+    "predicted_at": "2026-09-15T02:03:58.044994Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Hungaroring",
-        "circuit": "Hungaroring",
-        "country": "Hungary",
-        "date_start": "2026-07-26T13:00:00+00:00",
-        "meeting_key": 1291
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Lando Norris",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Andrea Kimi Antonelli is currently the dominant driver of 2026 with six wins and a formidable Mercedes package. McLaren, who secured a 1-2 finish at the Hungaroring in 2025, are introducing significant upgrades this weekend, making Lando Norris and Oscar Piastri the primary challengers on this high-downforce circuit."
-      },
-      "predicted_at": "2026-07-22T01:16:57.461955Z"
-    },
     {
       "next_race": {
         "race_name": "Hungaroring",
@@ -917,6 +899,24 @@
         "reason": "Antonelli is dominating the 2026 season with eight wins and leads the championship comfortably. Verstappen has strong historical form in Baku, including a win in 2025, and consistently secures podiums, while Norris has shown exceptional qualifying pace despite recent bad luck."
       },
       "predicted_at": "2026-09-14T01:55:36.305884Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Lando Norris",
+          "2nd": "Max Verstappen",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "Lando Norris is the defending champion and 'in-form driver' who showed the fastest pace in Madrid despite a VSC-influenced loss. Max Verstappen won in Baku last year and remains highly consistent, while Andrea Kimi Antonelli is on a hot streak with Mercedes, having won the previous race in Spain."
+      },
+      "predicted_at": "2026-09-15T02:03:58.044994Z"
     }
   ]
 }
