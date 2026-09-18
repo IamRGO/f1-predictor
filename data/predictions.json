@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Andrea Kimi Antonelli",
+        "1st": "Max Verstappen",
         "2nd": "Lando Norris",
-        "3rd": "Max Verstappen"
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "Kimi Antonelli is currently 'unstoppable' according to Lewis Hamilton, coming off a win in Madrid and leading the championship. Reigning champion Lando Norris has shown the quickest raw pace with recent poles, while Max Verstappen won the 2025 Baku Grand Prix and remains a consistent podium finisher."
+      "reason": "Max Verstappen won the 2025 Azerbaijan Grand Prix and remains the most clinical driver on the grid. While defending champion Lando Norris has shown superior pace but suffered from bad luck in recent races, rookie sensation Andrea Kimi Antonelli is the form driver of 2026 with recent wins in Monza and Madrid, making him a strong contender to complete the podium."
     },
-    "predicted_at": "2026-09-16T01:55:15.733923Z"
+    "predicted_at": "2026-09-18T01:46:40.505047Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Hungaroring",
-        "circuit": "Hungaroring",
-        "country": "Hungary",
-        "date_start": "2026-07-26T13:00:00+00:00",
-        "meeting_key": 1291
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Andrea Kimi Antonelli"
-        },
-        "reason": "Lando Norris is the defending winner at the Hungaroring and McLaren is introducing a significant upgrade package tailored for this high-downforce circuit. Max Verstappen has reported recent gains in the Red Bull's development, while championship leader Andrea Kimi Antonelli is the form driver following his victory in Belgium and Mercedes' resolution of recent calibration issues."
-      },
-      "predicted_at": "2026-07-24T01:20:25.205870Z"
-    },
     {
       "next_race": {
         "race_name": "Hungaroring",
@@ -917,6 +899,24 @@
         "reason": "Kimi Antonelli is currently 'unstoppable' according to Lewis Hamilton, coming off a win in Madrid and leading the championship. Reigning champion Lando Norris has shown the quickest raw pace with recent poles, while Max Verstappen won the 2025 Baku Grand Prix and remains a consistent podium finisher."
       },
       "predicted_at": "2026-09-16T01:55:15.733923Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Lando Norris",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "Max Verstappen won the 2025 Azerbaijan Grand Prix and remains the most clinical driver on the grid. While defending champion Lando Norris has shown superior pace but suffered from bad luck in recent races, rookie sensation Andrea Kimi Antonelli is the form driver of 2026 with recent wins in Monza and Madrid, making him a strong contender to complete the podium."
+      },
+      "predicted_at": "2026-09-18T01:46:40.505047Z"
     }
   ]
 }
