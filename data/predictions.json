@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Max Verstappen",
-        "2nd": "Lando Norris",
-        "3rd": "Andrea Kimi Antonelli"
+        "1st": "Andrea Kimi Antonelli",
+        "2nd": "Max Verstappen",
+        "3rd": "George Russell"
       },
-      "reason": "Max Verstappen won the 2025 Azerbaijan Grand Prix and remains the most clinical driver on the grid. While defending champion Lando Norris has shown superior pace but suffered from bad luck in recent races, rookie sensation Andrea Kimi Antonelli is the form driver of 2026 with recent wins in Monza and Madrid, making him a strong contender to complete the podium."
+      "reason": "Andrea Kimi Antonelli is dominating the 2026 season with an 81-point lead, indicating Mercedes has the superior car under the new regulations. Max Verstappen is a Baku specialist, having won there in 2025, and remains the most consistent threat to Mercedes. George Russell finished on the podium at Baku in 2025 and should benefit from the same Mercedes power unit performance that has propelled Antonelli to the top of the standings."
     },
-    "predicted_at": "2026-09-18T01:46:40.505047Z"
+    "predicted_at": "2026-09-21T01:55:16.695181Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Hungaroring",
-        "circuit": "Hungaroring",
-        "country": "Hungary",
-        "date_start": "2026-07-26T13:00:00+00:00",
-        "meeting_key": 1291
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lewis Hamilton",
-          "2nd": "Charles Leclerc",
-          "3rd": "Lando Norris"
-        },
-        "reason": "Ferrari showed dominant pace in Friday practice, securing a 1-2 in FP2 with Hamilton leading Leclerc. Hamilton is a specialist at the Hungaroring with a record eight wins, and while Lando Norris is the defending 2025 winner, Ferrari currently holds the technical edge over McLaren and a struggling Mercedes."
-      },
-      "predicted_at": "2026-07-25T01:21:23.391706Z"
-    },
     {
       "next_race": {
         "race_name": "Hungaroring",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen won the 2025 Azerbaijan Grand Prix and remains the most clinical driver on the grid. While defending champion Lando Norris has shown superior pace but suffered from bad luck in recent races, rookie sensation Andrea Kimi Antonelli is the form driver of 2026 with recent wins in Monza and Madrid, making him a strong contender to complete the podium."
       },
       "predicted_at": "2026-09-18T01:46:40.505047Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "Max Verstappen",
+          "3rd": "George Russell"
+        },
+        "reason": "Andrea Kimi Antonelli is dominating the 2026 season with an 81-point lead, indicating Mercedes has the superior car under the new regulations. Max Verstappen is a Baku specialist, having won there in 2025, and remains the most consistent threat to Mercedes. George Russell finished on the podium at Baku in 2025 and should benefit from the same Mercedes power unit performance that has propelled Antonelli to the top of the standings."
+      },
+      "predicted_at": "2026-09-21T01:55:16.695181Z"
     }
   ]
 }
