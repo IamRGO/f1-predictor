@@ -11,31 +11,13 @@
       "podium": {
         "1st": "Andrea Kimi Antonelli",
         "2nd": "Max Verstappen",
-        "3rd": "Lando Norris"
+        "3rd": "George Russell"
       },
-      "reason": "Andrea Kimi Antonelli is the dominant force of the 2026 season with a massive 81-point championship lead. Max Verstappen is a Baku specialist who won the 2025 race at this circuit, and reigning world champion Lando Norris remains the most consistent challenger to the leaders despite recent misfortune."
+      "reason": "Championship leader Kimi Antonelli is the dominant force in 2026 with an 81-point lead, making him the favorite. Verstappen is a Baku specialist and previous winner, while Russell and Mercedes have shown strong street circuit performance and current technical superiority."
     },
-    "predicted_at": "2026-09-22T02:02:33.425498Z"
+    "predicted_at": "2026-09-23T02:01:07.114229Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Lando Norris and McLaren enter Zandvoort with momentum after a dominant victory in Hungary and an apparent pace advantage over the field. While Max Verstappen is wrestling with a less competitive Red Bull, his home-field advantage and consistency make him a lock for the podium, while Oscar Piastri looks to reclaim his 2025 Zandvoort winning form after a mechanical DNF in the previous round."
-      },
-      "predicted_at": "2026-07-27T01:28:35.906448Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Andrea Kimi Antonelli is the dominant force of the 2026 season with a massive 81-point championship lead. Max Verstappen is a Baku specialist who won the 2025 race at this circuit, and reigning world champion Lando Norris remains the most consistent challenger to the leaders despite recent misfortune."
       },
       "predicted_at": "2026-09-22T02:02:33.425498Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "Max Verstappen",
+          "3rd": "George Russell"
+        },
+        "reason": "Championship leader Kimi Antonelli is the dominant force in 2026 with an 81-point lead, making him the favorite. Verstappen is a Baku specialist and previous winner, while Russell and Mercedes have shown strong street circuit performance and current technical superiority."
+      },
+      "predicted_at": "2026-09-23T02:01:07.114229Z"
     }
   ]
 }
