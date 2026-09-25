@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Andrea Kimi Antonelli",
+        "1st": "George Russell",
         "2nd": "Max Verstappen",
-        "3rd": "George Russell"
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "Championship leader Antonelli is in dominant form with 8 wins in his last 14 races. Verstappen remains the most consistent threat and won at this circuit in 2025, while Russell finished 2nd in Baku last year and benefits from the strong Mercedes package that has propelled Antonelli's title charge."
+      "reason": "George Russell dominated both practice sessions in Baku with a significant pace advantage, while Mercedes overall looks strongest this weekend. Max Verstappen won this race in 2025 and remains highly consistent, and championship leader Antonelli recovered well from early technical issues to show podium-contending pace."
     },
-    "predicted_at": "2026-09-24T01:49:39.297879Z"
+    "predicted_at": "2026-09-25T02:06:13.260191Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "McLaren has established a decisive pace advantage following their dominant win in Hungary, with reigning champion Norris in top form. Verstappen remains the strongest challenger at his home race despite Red Bull's reported car struggles, while Piastri's history as a previous Zandvoort winner and McLaren's current performance favor a double podium for the team."
-      },
-      "predicted_at": "2026-07-29T01:18:25.275275Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Championship leader Antonelli is in dominant form with 8 wins in his last 14 races. Verstappen remains the most consistent threat and won at this circuit in 2025, while Russell finished 2nd in Baku last year and benefits from the strong Mercedes package that has propelled Antonelli's title charge."
       },
       "predicted_at": "2026-09-24T01:49:39.297879Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "George Russell",
+          "2nd": "Max Verstappen",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "George Russell dominated both practice sessions in Baku with a significant pace advantage, while Mercedes overall looks strongest this weekend. Max Verstappen won this race in 2025 and remains highly consistent, and championship leader Antonelli recovered well from early technical issues to show podium-contending pace."
+      },
+      "predicted_at": "2026-09-25T02:06:13.260191Z"
     }
   ]
 }
