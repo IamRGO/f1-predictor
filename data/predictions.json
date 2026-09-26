@@ -11,31 +11,13 @@
       "podium": {
         "1st": "George Russell",
         "2nd": "Max Verstappen",
-        "3rd": "Andrea Kimi Antonelli"
+        "3rd": "Oscar Piastri"
       },
-      "reason": "George Russell dominated both practice sessions in Baku with a significant pace advantage, while Mercedes overall looks strongest this weekend. Max Verstappen won this race in 2025 and remains highly consistent, and championship leader Antonelli recovered well from early technical issues to show podium-contending pace."
+      "reason": "George Russell claimed a dominant pole position with Mercedes showing significant pace advantage in Baku. Max Verstappen topped FP3 and historically performs well at this circuit, making him the likely challenger for the win. Oscar Piastri qualified third and has maintained strong momentum from his successful 2025 season, while rivals like Antonelli and Norris face setbacks due to a qualifying crash and engine issues respectively."
     },
-    "predicted_at": "2026-09-25T02:06:13.260191Z"
+    "predicted_at": "2026-09-26T02:11:43.256878Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "McLaren currently possesses a decisive race pace advantage, as evidenced by Norris's dominant victory in Hungary just before the summer break. While Verstappen continues to struggle with his car's balance, his history of 'over-performing' and the significant home-track advantage at Zandvoort make him the primary challenger. Piastri, who won the 2025 Dutch Grand Prix, completes the podium given McLaren's technical superiority on high-downforce circuits."
-      },
-      "predicted_at": "2026-07-30T01:11:41.796771Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "George Russell dominated both practice sessions in Baku with a significant pace advantage, while Mercedes overall looks strongest this weekend. Max Verstappen won this race in 2025 and remains highly consistent, and championship leader Antonelli recovered well from early technical issues to show podium-contending pace."
       },
       "predicted_at": "2026-09-25T02:06:13.260191Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Baku",
+        "circuit": "Baku",
+        "country": "Azerbaijan",
+        "date_start": "2026-09-26T11:00:00+00:00",
+        "meeting_key": 1295
+      },
+      "prediction": {
+        "podium": {
+          "1st": "George Russell",
+          "2nd": "Max Verstappen",
+          "3rd": "Oscar Piastri"
+        },
+        "reason": "George Russell claimed a dominant pole position with Mercedes showing significant pace advantage in Baku. Max Verstappen topped FP3 and historically performs well at this circuit, making him the likely challenger for the win. Oscar Piastri qualified third and has maintained strong momentum from his successful 2025 season, while rivals like Antonelli and Norris face setbacks due to a qualifying crash and engine issues respectively."
+      },
+      "predicted_at": "2026-09-26T02:11:43.256878Z"
     }
   ]
 }
