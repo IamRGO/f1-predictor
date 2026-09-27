@@ -1,41 +1,23 @@
 {
   "latest": {
     "next_race": {
-      "race_name": "Baku",
-      "circuit": "Baku",
-      "country": "Azerbaijan",
-      "date_start": "2026-09-26T11:00:00+00:00",
-      "meeting_key": 1295
+      "race_name": "Kuala Lumpur",
+      "circuit": "Kuala Lumpur",
+      "country": "Bahrain",
+      "date_start": "2026-10-04T07:00:00+00:00",
+      "meeting_key": 1308
     },
     "prediction": {
       "podium": {
         "1st": "George Russell",
         "2nd": "Max Verstappen",
-        "3rd": "Oscar Piastri"
+        "3rd": "Kimi Antonelli"
       },
-      "reason": "George Russell claimed a dominant pole position with Mercedes showing significant pace advantage in Baku. Max Verstappen topped FP3 and historically performs well at this circuit, making him the likely challenger for the win. Oscar Piastri qualified third and has maintained strong momentum from his successful 2025 season, while rivals like Antonelli and Norris face setbacks due to a qualifying crash and engine issues respectively."
+      "reason": "George Russell is currently in peak form following a dominant pole and victory in Baku. Max Verstappen continues to be the primary challenger to Mercedes' pace, while championship leader Kimi Antonelli is likely to bounce back from his Baku qualifying error to round out the podium in what is currently the field's strongest car."
     },
-    "predicted_at": "2026-09-26T02:11:43.256878Z"
+    "predicted_at": "2026-09-27T02:05:06.934331Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Lando Norris",
-          "3rd": "Andrea Kimi Antonelli"
-        },
-        "reason": "Verstappen historically dominates his home race and managed a P2 in Hungary despite car struggles. Norris enters with momentum from his Hungarian GP victory and a highly competitive McLaren. Antonelli is the form driver for Mercedes, which is currently cited as having the grid's most competitive car, following his win in Belgium."
-      },
-      "predicted_at": "2026-07-31T01:24:29.017860Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "George Russell claimed a dominant pole position with Mercedes showing significant pace advantage in Baku. Max Verstappen topped FP3 and historically performs well at this circuit, making him the likely challenger for the win. Oscar Piastri qualified third and has maintained strong momentum from his successful 2025 season, while rivals like Antonelli and Norris face setbacks due to a qualifying crash and engine issues respectively."
       },
       "predicted_at": "2026-09-26T02:11:43.256878Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Kuala Lumpur",
+        "circuit": "Kuala Lumpur",
+        "country": "Bahrain",
+        "date_start": "2026-10-04T07:00:00+00:00",
+        "meeting_key": 1308
+      },
+      "prediction": {
+        "podium": {
+          "1st": "George Russell",
+          "2nd": "Max Verstappen",
+          "3rd": "Kimi Antonelli"
+        },
+        "reason": "George Russell is currently in peak form following a dominant pole and victory in Baku. Max Verstappen continues to be the primary challenger to Mercedes' pace, while championship leader Kimi Antonelli is likely to bounce back from his Baku qualifying error to round out the podium in what is currently the field's strongest car."
+      },
+      "predicted_at": "2026-09-27T02:05:06.934331Z"
     }
   ]
 }
