@@ -11,31 +11,13 @@
       "podium": {
         "1st": "George Russell",
         "2nd": "Max Verstappen",
-        "3rd": "Kimi Antonelli"
+        "3rd": "Lando Norris"
       },
-      "reason": "George Russell is currently in peak form following a dominant pole and victory in Baku. Max Verstappen continues to be the primary challenger to Mercedes' pace, while championship leader Kimi Antonelli is likely to bounce back from his Baku qualifying error to round out the podium in what is currently the field's strongest car."
+      "reason": "George Russell is in peak form following a dominant weekend in Azerbaijan (Baku) and holds significant momentum. Max Verstappen and Red Bull have shown 'fresh hope' and brilliance recently, nearly winning the last race. Despite McLaren's straight-line speed concerns, Lando Norris remains a consistent frontrunner and title contender throughout the 2025-2026 period."
     },
-    "predicted_at": "2026-09-27T02:05:06.934331Z"
+    "predicted_at": "2026-09-29T02:55:53.525286Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi ANTONELLI",
-          "2nd": "Max VERSTAPPEN",
-          "3rd": "Lando NORRIS"
-        },
-        "reason": "Mercedes currently holds the most competitive car on the grid according to mid-2026 reports, with Antonelli already securing multiple wins including a record-breaking five-race streak. Verstappen remains the dominant force at his home circuit in Zandvoort, while Norris enters the second half of the season with momentum from his recent victory in Hungary."
-      },
-      "predicted_at": "2026-08-01T01:26:04.090824Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "George Russell is currently in peak form following a dominant pole and victory in Baku. Max Verstappen continues to be the primary challenger to Mercedes' pace, while championship leader Kimi Antonelli is likely to bounce back from his Baku qualifying error to round out the podium in what is currently the field's strongest car."
       },
       "predicted_at": "2026-09-27T02:05:06.934331Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Kuala Lumpur",
+        "circuit": "Kuala Lumpur",
+        "country": "Bahrain",
+        "date_start": "2026-10-04T07:00:00+00:00",
+        "meeting_key": 1308
+      },
+      "prediction": {
+        "podium": {
+          "1st": "George Russell",
+          "2nd": "Max Verstappen",
+          "3rd": "Lando Norris"
+        },
+        "reason": "George Russell is in peak form following a dominant weekend in Azerbaijan (Baku) and holds significant momentum. Max Verstappen and Red Bull have shown 'fresh hope' and brilliance recently, nearly winning the last race. Despite McLaren's straight-line speed concerns, Lando Norris remains a consistent frontrunner and title contender throughout the 2025-2026 period."
+      },
+      "predicted_at": "2026-09-29T02:55:53.525286Z"
     }
   ]
 }
