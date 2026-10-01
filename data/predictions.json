@@ -11,31 +11,13 @@
       "podium": {
         "1st": "George Russell",
         "2nd": "Max Verstappen",
-        "3rd": "Lando Norris"
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "George Russell enters the Sepang circuit with immense momentum after what he described as his most dominant career win in Baku. Max Verstappen continues to be the most consistent threat for the top spot, while world champion Lando Norris is expected to bounce back from a difficult weekend in Azerbaijan, aided by McLaren's encouraging recent technical upgrades."
+      "reason": "George Russell enters Sepang with significant momentum following what he described as the most dominant win of his career in Azerbaijan. While Kimi Antonelli leads the 2026 championship and remains highly consistent, Max Verstappen's historical prowess in high-heat, high-degradation races like Sepang makes him a primary contender for the top spots."
     },
-    "predicted_at": "2026-09-30T02:37:08.596115Z"
+    "predicted_at": "2026-10-01T02:40:51.432752Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Max Verstappen",
-          "3rd": "Lando Norris"
-        },
-        "reason": "Mercedes has the most competitive car on the grid in 2026, and Kimi Antonelli enters Zandvoort in elite form following a five-race winning streak and a victory at the Belgian Grand Prix. Max Verstappen is expected to secure a podium at his home race despite Red Bull's relative performance dip, while Lando Norris remains a top contender after winning the Hungarian Grand Prix and expressing high confidence in his current driving level."
-      },
-      "predicted_at": "2026-08-03T01:24:14.429122Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "George Russell enters the Sepang circuit with immense momentum after what he described as his most dominant career win in Baku. Max Verstappen continues to be the most consistent threat for the top spot, while world champion Lando Norris is expected to bounce back from a difficult weekend in Azerbaijan, aided by McLaren's encouraging recent technical upgrades."
       },
       "predicted_at": "2026-09-30T02:37:08.596115Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Kuala Lumpur",
+        "circuit": "Kuala Lumpur",
+        "country": "Bahrain",
+        "date_start": "2026-10-04T07:00:00+00:00",
+        "meeting_key": 1308
+      },
+      "prediction": {
+        "podium": {
+          "1st": "George Russell",
+          "2nd": "Max Verstappen",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "George Russell enters Sepang with significant momentum following what he described as the most dominant win of his career in Azerbaijan. While Kimi Antonelli leads the 2026 championship and remains highly consistent, Max Verstappen's historical prowess in high-heat, high-degradation races like Sepang makes him a primary contender for the top spots."
+      },
+      "predicted_at": "2026-10-01T02:40:51.432752Z"
     }
   ]
 }
