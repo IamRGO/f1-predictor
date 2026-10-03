@@ -10,32 +10,14 @@
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Andrea Kimi Antonelli",
-        "3rd": "George Russell"
+        "2nd": "Charles Leclerc",
+        "3rd": "Oscar Piastri"
       },
-      "reason": "Max Verstappen ended the 2025 season with dominant form and has a strong historical record at Sepang. However, news reports indicate that Mercedes has taken a significant step forward in 2026, with Andrea Kimi Antonelli leading the championship and George Russell benefiting from recent upgrades and renewed confidence. In the extreme heat of Malaysia, the Mercedes package and Verstappen's experience are expected to prevail over the McLarens."
+      "reason": "Max Verstappen topped FP1 and is considered the favorite by rivals for the high-degradation Sepang circuit. Charles Leclerc showed superior one-lap pace by topping FP2, while Oscar Piastri and McLaren have a high podium conversion rate in recent races and are expected to overcome a mixed Friday practice."
     },
-    "predicted_at": "2026-10-02T02:45:12.775794Z"
+    "predicted_at": "2026-10-03T02:31:24.497626Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi ANTONELLI",
-          "2nd": "Max VERSTAPPEN",
-          "3rd": "Lando NORRIS"
-        },
-        "reason": "Mercedes currently possesses the most competitive car on the 2026 grid, with championship leader Antonelli entering Zandvoort with momentum after his Belgian Grand Prix victory. Verstappen is historically dominant at his home circuit and remains a consistent podium finisher, while Norris and McLaren have shown significant improvement, evidenced by their recent victory in Hungary."
-      },
-      "predicted_at": "2026-08-05T01:17:34.969317Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen ended the 2025 season with dominant form and has a strong historical record at Sepang. However, news reports indicate that Mercedes has taken a significant step forward in 2026, with Andrea Kimi Antonelli leading the championship and George Russell benefiting from recent upgrades and renewed confidence. In the extreme heat of Malaysia, the Mercedes package and Verstappen's experience are expected to prevail over the McLarens."
       },
       "predicted_at": "2026-10-02T02:45:12.775794Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Kuala Lumpur",
+        "circuit": "Kuala Lumpur",
+        "country": "Bahrain",
+        "date_start": "2026-10-04T07:00:00+00:00",
+        "meeting_key": 1308
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Charles Leclerc",
+          "3rd": "Oscar Piastri"
+        },
+        "reason": "Max Verstappen topped FP1 and is considered the favorite by rivals for the high-degradation Sepang circuit. Charles Leclerc showed superior one-lap pace by topping FP2, while Oscar Piastri and McLaren have a high podium conversion rate in recent races and are expected to overcome a mixed Friday practice."
+      },
+      "predicted_at": "2026-10-03T02:31:24.497626Z"
     }
   ]
 }
