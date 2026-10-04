@@ -10,32 +10,14 @@
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Charles Leclerc",
-        "3rd": "Oscar Piastri"
+        "2nd": "Lewis Hamilton",
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "Max Verstappen topped FP1 and is considered the favorite by rivals for the high-degradation Sepang circuit. Charles Leclerc showed superior one-lap pace by topping FP2, while Oscar Piastri and McLaren have a high podium conversion rate in recent races and are expected to overcome a mixed Friday practice."
+      "reason": "Verstappen starts on pole with a powerful Red Bull upgrade and is the favorite in the heat-hazard conditions. Hamilton joins him on the front row for Ferrari, showing strong competitive pace. Antonelli starts P3 following Hadjar's penalty and has been quick throughout practice, leading the championship."
     },
-    "predicted_at": "2026-10-03T02:31:24.497626Z"
+    "predicted_at": "2026-10-04T03:02:26.678718Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Max Verstappen",
-          "3rd": "Lando Norris"
-        },
-        "reason": "Kimi Antonelli enters the second half of 2026 with a commanding 50-point championship lead and superior Mercedes pace. Max Verstappen is consistently strong at his home circuit in Zandvoort, and Lando Norris carries significant momentum following his win at the Hungarian Grand Prix just before the summer break."
-      },
-      "predicted_at": "2026-08-08T00:39:44.303511Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen topped FP1 and is considered the favorite by rivals for the high-degradation Sepang circuit. Charles Leclerc showed superior one-lap pace by topping FP2, while Oscar Piastri and McLaren have a high podium conversion rate in recent races and are expected to overcome a mixed Friday practice."
       },
       "predicted_at": "2026-10-03T02:31:24.497626Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Kuala Lumpur",
+        "circuit": "Kuala Lumpur",
+        "country": "Bahrain",
+        "date_start": "2026-10-04T07:00:00+00:00",
+        "meeting_key": 1308
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Lewis Hamilton",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "Verstappen starts on pole with a powerful Red Bull upgrade and is the favorite in the heat-hazard conditions. Hamilton joins him on the front row for Ferrari, showing strong competitive pace. Antonelli starts P3 following Hadjar's penalty and has been quick throughout practice, leading the championship."
+      },
+      "predicted_at": "2026-10-04T03:02:26.678718Z"
     }
   ]
 }
