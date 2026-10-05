@@ -1,41 +1,23 @@
 {
   "latest": {
     "next_race": {
-      "race_name": "Kuala Lumpur",
-      "circuit": "Kuala Lumpur",
-      "country": "Bahrain",
-      "date_start": "2026-10-04T07:00:00+00:00",
-      "meeting_key": 1308
+      "race_name": "Singapore",
+      "circuit": "Singapore",
+      "country": "Singapore",
+      "date_start": "2026-10-11T12:00:00+00:00",
+      "meeting_key": 1296
     },
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Lewis Hamilton",
-        "3rd": "Andrea Kimi Antonelli"
+        "2nd": "Andrea Kimi Antonelli",
+        "3rd": "Lewis Hamilton"
       },
-      "reason": "Verstappen starts on pole with a powerful Red Bull upgrade and is the favorite in the heat-hazard conditions. Hamilton joins him on the front row for Ferrari, showing strong competitive pace. Antonelli starts P3 following Hadjar's penalty and has been quick throughout practice, leading the championship."
+      "reason": "Max Verstappen enters Singapore with significant momentum after securing Red Bull Powertrains' first win and pole position in Malaysia. Championship leader Andrea Kimi Antonelli remains the most consistent performer for Mercedes. Lewis Hamilton, a known Singapore specialist, showed a return to form with a podium in the previous race, and the Ferrari package appears highly competitive on high-downforce circuits."
     },
-    "predicted_at": "2026-10-04T03:02:26.678718Z"
+    "predicted_at": "2026-10-05T02:36:02.069165Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Max Verstappen",
-          "3rd": "Lando Norris"
-        },
-        "reason": "Antonelli leads the championship by 50 points and Mercedes enters the second half as the form team. Verstappen is expected to excel at his home race to break his 2026 winless streak, while Norris maintains his momentum following a victory in Hungary before the summer break."
-      },
-      "predicted_at": "2026-08-09T00:42:15.712711Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Verstappen starts on pole with a powerful Red Bull upgrade and is the favorite in the heat-hazard conditions. Hamilton joins him on the front row for Ferrari, showing strong competitive pace. Antonelli starts P3 following Hadjar's penalty and has been quick throughout practice, leading the championship."
       },
       "predicted_at": "2026-10-04T03:02:26.678718Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Singapore",
+        "circuit": "Singapore",
+        "country": "Singapore",
+        "date_start": "2026-10-11T12:00:00+00:00",
+        "meeting_key": 1296
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Lewis Hamilton"
+        },
+        "reason": "Max Verstappen enters Singapore with significant momentum after securing Red Bull Powertrains' first win and pole position in Malaysia. Championship leader Andrea Kimi Antonelli remains the most consistent performer for Mercedes. Lewis Hamilton, a known Singapore specialist, showed a return to form with a podium in the previous race, and the Ferrari package appears highly competitive on high-downforce circuits."
+      },
+      "predicted_at": "2026-10-05T02:36:02.069165Z"
     }
   ]
 }
