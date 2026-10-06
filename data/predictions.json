@@ -10,32 +10,14 @@
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Andrea Kimi Antonelli",
-        "3rd": "Lewis Hamilton"
+        "2nd": "George Russell",
+        "3rd": "Lando Norris"
       },
-      "reason": "Max Verstappen enters Singapore with significant momentum after securing Red Bull Powertrains' first win and pole position in Malaysia. Championship leader Andrea Kimi Antonelli remains the most consistent performer for Mercedes. Lewis Hamilton, a known Singapore specialist, showed a return to form with a podium in the previous race, and the Ferrari package appears highly competitive on high-downforce circuits."
+      "reason": "Max Verstappen enters Singapore with significant momentum following his first win of the season in Malaysia with the new Red Bull-Ford power unit. George Russell is the defending Singapore GP winner (2025) and showed podium-contending pace before a mechanical failure in the previous round. Lando Norris remains the most consistent podium finisher in recent history and typically excels at high-downforce street circuits, despite McLaren's recent strategy errors."
     },
-    "predicted_at": "2026-10-05T02:36:02.069165Z"
+    "predicted_at": "2026-10-06T03:29:32.420113Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Andrea Kimi Antonelli",
-          "3rd": "Lando Norris"
-        },
-        "reason": "Verstappen is a home favorite at Zandvoort and is overdue for a win in 2026. Antonelli, the championship leader with a 50-point gap, remains highly consistent, while Norris enters with momentum after winning the previous race in Hungary."
-      },
-      "predicted_at": "2026-08-10T00:43:59.512030Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen enters Singapore with significant momentum after securing Red Bull Powertrains' first win and pole position in Malaysia. Championship leader Andrea Kimi Antonelli remains the most consistent performer for Mercedes. Lewis Hamilton, a known Singapore specialist, showed a return to form with a podium in the previous race, and the Ferrari package appears highly competitive on high-downforce circuits."
       },
       "predicted_at": "2026-10-05T02:36:02.069165Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Singapore",
+        "circuit": "Singapore",
+        "country": "Singapore",
+        "date_start": "2026-10-11T12:00:00+00:00",
+        "meeting_key": 1296
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "George Russell",
+          "3rd": "Lando Norris"
+        },
+        "reason": "Max Verstappen enters Singapore with significant momentum following his first win of the season in Malaysia with the new Red Bull-Ford power unit. George Russell is the defending Singapore GP winner (2025) and showed podium-contending pace before a mechanical failure in the previous round. Lando Norris remains the most consistent podium finisher in recent history and typically excels at high-downforce street circuits, despite McLaren's recent strategy errors."
+      },
+      "predicted_at": "2026-10-06T03:29:32.420113Z"
     }
   ]
 }
