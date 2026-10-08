@@ -13,29 +13,11 @@
         "2nd": "Lando Norris",
         "3rd": "Lewis Hamilton"
       },
-      "reason": "Verstappen enters Singapore with significant momentum after a dominant 'masterclass' win at the previous round in Malaysia. Lando Norris remains the most consistent high-finisher in recent history, while Hamilton's recent podium recovery and experience at Marina Bay make him a top contender over teammate Antonelli and the reliability-plagued Russell."
+      "reason": "Verstappen is coming off a dominant victory in Malaysia with the new Red Bull-Ford power unit. Norris remains the most consistent frontrunner from the 2025 results, and Hamilton showed strong recovery pace for a podium in the previous round. George Russell, the 2025 Singapore winner, is excluded from the top three due to a confirmed back-of-the-grid power unit penalty."
     },
-    "predicted_at": "2026-10-07T02:54:09.400283Z"
+    "predicted_at": "2026-10-08T03:11:28.083598Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Max Verstappen",
-          "3rd": "Lewis Hamilton"
-        },
-        "reason": "Mercedes enters the second half of 2026 as the dominant force with Kimi Antonelli leading the championship by 50 points. While Verstappen is exceptionally strong at his home race in Zandvoort, the current Mercedes performance advantage suggests an Antonelli victory, with Hamilton rounding out the podium as Ferrari remains the most consistent challenger to the Silver Arrows."
-      },
-      "predicted_at": "2026-08-12T00:51:33.509886Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Verstappen enters Singapore with significant momentum after a dominant 'masterclass' win at the previous round in Malaysia. Lando Norris remains the most consistent high-finisher in recent history, while Hamilton's recent podium recovery and experience at Marina Bay make him a top contender over teammate Antonelli and the reliability-plagued Russell."
       },
       "predicted_at": "2026-10-07T02:54:09.400283Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Singapore",
+        "circuit": "Singapore",
+        "country": "Singapore",
+        "date_start": "2026-10-11T12:00:00+00:00",
+        "meeting_key": 1296
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Lando Norris",
+          "3rd": "Lewis Hamilton"
+        },
+        "reason": "Verstappen is coming off a dominant victory in Malaysia with the new Red Bull-Ford power unit. Norris remains the most consistent frontrunner from the 2025 results, and Hamilton showed strong recovery pace for a podium in the previous round. George Russell, the 2025 Singapore winner, is excluded from the top three due to a confirmed back-of-the-grid power unit penalty."
+      },
+      "predicted_at": "2026-10-08T03:11:28.083598Z"
     }
   ]
 }
