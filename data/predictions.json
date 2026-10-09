@@ -10,32 +10,14 @@
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Lando Norris",
+        "2nd": "Charles Leclerc",
         "3rd": "Lewis Hamilton"
       },
-      "reason": "Verstappen is coming off a dominant victory in Malaysia with the new Red Bull-Ford power unit. Norris remains the most consistent frontrunner from the 2025 results, and Hamilton showed strong recovery pace for a podium in the previous round. George Russell, the 2025 Singapore winner, is excluded from the top three due to a confirmed back-of-the-grid power unit penalty."
+      "reason": "Max Verstappen enters his 250th Grand Prix with momentum following his first win of the season. Ferrari's duo of Leclerc and Hamilton have signaled an aggressive approach for Singapore, a track where Leclerc excels in qualifying and Hamilton has a storied history. Meanwhile, McLaren remains uncertain about their upgrade package performance and Mercedes' George Russell faces a significant grid penalty."
     },
-    "predicted_at": "2026-10-08T03:11:28.083598Z"
+    "predicted_at": "2026-10-09T03:17:55.000167Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Lando Norris",
-          "3rd": "Isack Hadjar"
-        },
-        "reason": "Verstappen is the favorite at his home circuit after a strong end to 2025 and continued dominance in 2026. Norris remains the most consistent challenger in the McLaren, while Hadjar, who finished on the podium at Zandvoort in 2025, is now in the superior Red Bull seat and looking to prove his promotion was justified."
-      },
-      "predicted_at": "2026-08-13T00:52:42.590148Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Verstappen is coming off a dominant victory in Malaysia with the new Red Bull-Ford power unit. Norris remains the most consistent frontrunner from the 2025 results, and Hamilton showed strong recovery pace for a podium in the previous round. George Russell, the 2025 Singapore winner, is excluded from the top three due to a confirmed back-of-the-grid power unit penalty."
       },
       "predicted_at": "2026-10-08T03:11:28.083598Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Singapore",
+        "circuit": "Singapore",
+        "country": "Singapore",
+        "date_start": "2026-10-11T12:00:00+00:00",
+        "meeting_key": 1296
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Charles Leclerc",
+          "3rd": "Lewis Hamilton"
+        },
+        "reason": "Max Verstappen enters his 250th Grand Prix with momentum following his first win of the season. Ferrari's duo of Leclerc and Hamilton have signaled an aggressive approach for Singapore, a track where Leclerc excels in qualifying and Hamilton has a storied history. Meanwhile, McLaren remains uncertain about their upgrade package performance and Mercedes' George Russell faces a significant grid penalty."
+      },
+      "predicted_at": "2026-10-09T03:17:55.000167Z"
     }
   ]
 }
