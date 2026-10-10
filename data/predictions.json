@@ -10,32 +10,14 @@
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Charles Leclerc",
-        "3rd": "Lewis Hamilton"
+        "2nd": "Lando Norris",
+        "3rd": "Oscar Piastri"
       },
-      "reason": "Max Verstappen enters his 250th Grand Prix with momentum following his first win of the season. Ferrari's duo of Leclerc and Hamilton have signaled an aggressive approach for Singapore, a track where Leclerc excels in qualifying and Hamilton has a storied history. Meanwhile, McLaren remains uncertain about their upgrade package performance and Mercedes' George Russell faces a significant grid penalty."
+      "reason": "Max Verstappen secured Sprint Pole and shows dominant form after avoiding penalties. While George Russell was fast in practice, his confirmed double power unit penalty will likely drop him to the back of the grid on a track where overtaking is difficult, allowing the consistently high-performing McLaren duo to claim the remaining podium spots."
     },
-    "predicted_at": "2026-10-09T03:17:55.000167Z"
+    "predicted_at": "2026-10-10T02:57:20.577658Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Lando Norris",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Max Verstappen is the favorite for his home race at Zandvoort, especially as Red Bull looks to reclaim dominance after the summer break. McLaren remains the most consistent threat, with Norris and Piastri frequently appearing on the podium throughout 2025 and 2026, and Piastri being the defending winner of this Grand Prix."
-      },
-      "predicted_at": "2026-08-14T00:52:04.117292Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen enters his 250th Grand Prix with momentum following his first win of the season. Ferrari's duo of Leclerc and Hamilton have signaled an aggressive approach for Singapore, a track where Leclerc excels in qualifying and Hamilton has a storied history. Meanwhile, McLaren remains uncertain about their upgrade package performance and Mercedes' George Russell faces a significant grid penalty."
       },
       "predicted_at": "2026-10-09T03:17:55.000167Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Singapore",
+        "circuit": "Singapore",
+        "country": "Singapore",
+        "date_start": "2026-10-11T12:00:00+00:00",
+        "meeting_key": 1296
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Lando Norris",
+          "3rd": "Oscar Piastri"
+        },
+        "reason": "Max Verstappen secured Sprint Pole and shows dominant form after avoiding penalties. While George Russell was fast in practice, his confirmed double power unit penalty will likely drop him to the back of the grid on a track where overtaking is difficult, allowing the consistently high-performing McLaren duo to claim the remaining podium spots."
+      },
+      "predicted_at": "2026-10-10T02:57:20.577658Z"
     }
   ]
 }
