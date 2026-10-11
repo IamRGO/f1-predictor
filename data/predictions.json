@@ -1,41 +1,23 @@
 {
   "latest": {
     "next_race": {
-      "race_name": "Singapore",
-      "circuit": "Singapore",
-      "country": "Singapore",
-      "date_start": "2026-10-11T12:00:00+00:00",
-      "meeting_key": 1296
+      "race_name": "Austin",
+      "circuit": "Austin",
+      "country": "United States",
+      "date_start": "2026-10-25T20:00:00+00:00",
+      "meeting_key": 1297
     },
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Charles Leclerc",
-        "3rd": "Lewis Hamilton"
+        "2nd": "Andrea Kimi Antonelli",
+        "3rd": "Charles Leclerc"
       },
-      "reason": "Max Verstappen is in peak form, having secured his 50th pole position and winning the Sprint race despite wet conditions. Starting on pole at the Marina Bay Street Circuit is a significant advantage due to the difficulty of overtaking. Charles Leclerc and Lewis Hamilton (now at Ferrari) start 2nd and 3rd respectively, and given McLaren's internal friction following the collision between Norris and Piastri, the Ferrari duo is well-positioned to round out the podium."
+      "reason": "Max Verstappen enters Austin with immense momentum following a dominant weekend in Singapore and has a strong historical record at COTA. Andrea Kimi Antonelli's clinical consistency puts him in a prime position to secure a podium and the world title, while Leclerc's Ferrari currently displays superior race pace compared to the internal friction-hampered McLaren team."
     },
-    "predicted_at": "2026-10-11T02:26:40.295688Z"
+    "predicted_at": "2026-10-11T20:01:15.990962Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Max Verstappen",
-          "3rd": "George Russell"
-        },
-        "reason": "Andrea Kimi Antonelli is the dominant championship leader in 2026 according to recent news. Max Verstappen, while no longer in the fastest car, historically excels at his home race in Zandvoort. Mercedes is currently the team to beat, making a double podium for them with Russell highly probable."
-      },
-      "predicted_at": "2026-08-16T00:30:07.870136Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen is in peak form, having secured his 50th pole position and winning the Sprint race despite wet conditions. Starting on pole at the Marina Bay Street Circuit is a significant advantage due to the difficulty of overtaking. Charles Leclerc and Lewis Hamilton (now at Ferrari) start 2nd and 3rd respectively, and given McLaren's internal friction following the collision between Norris and Piastri, the Ferrari duo is well-positioned to round out the podium."
       },
       "predicted_at": "2026-10-11T02:26:40.295688Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Charles Leclerc"
+        },
+        "reason": "Max Verstappen enters Austin with immense momentum following a dominant weekend in Singapore and has a strong historical record at COTA. Andrea Kimi Antonelli's clinical consistency puts him in a prime position to secure a podium and the world title, while Leclerc's Ferrari currently displays superior race pace compared to the internal friction-hampered McLaren team."
+      },
+      "predicted_at": "2026-10-11T20:01:15.990962Z"
     }
   ]
 }
