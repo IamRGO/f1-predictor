@@ -10,32 +10,14 @@
     "prediction": {
       "podium": {
         "1st": "Max Verstappen",
-        "2nd": "Lando Norris",
-        "3rd": "Oscar Piastri"
+        "2nd": "Charles Leclerc",
+        "3rd": "Lewis Hamilton"
       },
-      "reason": "Max Verstappen secured Sprint Pole and shows dominant form after avoiding penalties. While George Russell was fast in practice, his confirmed double power unit penalty will likely drop him to the back of the grid on a track where overtaking is difficult, allowing the consistently high-performing McLaren duo to claim the remaining podium spots."
+      "reason": "Max Verstappen is in peak form, having secured his 50th pole position and winning the Sprint race despite wet conditions. Starting on pole at the Marina Bay Street Circuit is a significant advantage due to the difficulty of overtaking. Charles Leclerc and Lewis Hamilton (now at Ferrari) start 2nd and 3rd respectively, and given McLaren's internal friction following the collision between Norris and Piastri, the Ferrari duo is well-positioned to round out the podium."
     },
-    "predicted_at": "2026-10-10T02:57:20.577658Z"
+    "predicted_at": "2026-10-11T02:26:40.295688Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Andrea Kimi Antonelli",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Verstappen is the home favorite and historically dominant at Zandvoort. Antonelli is the standout performer of 2026, having a 'dream season' in a Mercedes car that Ferrari is currently struggling to catch. Piastri, the winner of the 2025 Dutch Grand Prix, remains a strong technical contender on this circuit."
-      },
-      "predicted_at": "2026-08-15T00:29:12.343590Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen secured Sprint Pole and shows dominant form after avoiding penalties. While George Russell was fast in practice, his confirmed double power unit penalty will likely drop him to the back of the grid on a track where overtaking is difficult, allowing the consistently high-performing McLaren duo to claim the remaining podium spots."
       },
       "predicted_at": "2026-10-10T02:57:20.577658Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Singapore",
+        "circuit": "Singapore",
+        "country": "Singapore",
+        "date_start": "2026-10-11T12:00:00+00:00",
+        "meeting_key": 1296
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Charles Leclerc",
+          "3rd": "Lewis Hamilton"
+        },
+        "reason": "Max Verstappen is in peak form, having secured his 50th pole position and winning the Sprint race despite wet conditions. Starting on pole at the Marina Bay Street Circuit is a significant advantage due to the difficulty of overtaking. Charles Leclerc and Lewis Hamilton (now at Ferrari) start 2nd and 3rd respectively, and given McLaren's internal friction following the collision between Norris and Piastri, the Ferrari duo is well-positioned to round out the podium."
+      },
+      "predicted_at": "2026-10-11T02:26:40.295688Z"
     }
   ]
 }
