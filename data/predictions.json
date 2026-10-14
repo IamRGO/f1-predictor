@@ -11,31 +11,13 @@
       "podium": {
         "1st": "Max Verstappen",
         "2nd": "Andrea Kimi Antonelli",
-        "3rd": "Charles Leclerc"
+        "3rd": "Oscar Piastri"
       },
-      "reason": "Max Verstappen enters Austin with immense momentum following a dominant weekend in Singapore and has a strong historical record at COTA. Andrea Kimi Antonelli's clinical consistency puts him in a prime position to secure a podium and the world title, while Leclerc's Ferrari currently displays superior race pace compared to the internal friction-hampered McLaren team."
+      "reason": "Verstappen enters Austin with significant momentum following a dominant win in Singapore and a strong historical record at COTA. Antonelli, showing great maturity as the championship leader, is expected to drive a calculated race to secure the title, while Piastri has consistently outperformed his teammate in recent high-stakes podium finishes."
     },
-    "predicted_at": "2026-10-11T20:01:15.990962Z"
+    "predicted_at": "2026-10-14T02:20:51.823381Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "Charles Leclerc",
-          "3rd": "Max Verstappen"
-        },
-        "reason": "In the 2026 season, Mercedes has emerged as the dominant force with championship leader Andrea Kimi Antonelli consistently winning. Ferrari is currently the closest challenger, and team principal Vasseur has promised power unit upgrades for Zandvoort. Despite Red Bull's drop to fourth in the Constructors' standings, Verstappen remains a podium favorite at his home circuit where he has a strong historical record."
-      },
-      "predicted_at": "2026-08-17T00:28:51.891659Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Max Verstappen enters Austin with immense momentum following a dominant weekend in Singapore and has a strong historical record at COTA. Andrea Kimi Antonelli's clinical consistency puts him in a prime position to secure a podium and the world title, while Leclerc's Ferrari currently displays superior race pace compared to the internal friction-hampered McLaren team."
       },
       "predicted_at": "2026-10-11T20:01:15.990962Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Oscar Piastri"
+        },
+        "reason": "Verstappen enters Austin with significant momentum following a dominant win in Singapore and a strong historical record at COTA. Antonelli, showing great maturity as the championship leader, is expected to drive a calculated race to secure the title, while Piastri has consistently outperformed his teammate in recent high-stakes podium finishes."
+      },
+      "predicted_at": "2026-10-14T02:20:51.823381Z"
     }
   ]
 }
