@@ -13,29 +13,11 @@
         "2nd": "Andrea Kimi Antonelli",
         "3rd": "Oscar Piastri"
       },
-      "reason": "Verstappen enters Austin with significant momentum following a dominant win in Singapore and a strong historical record at COTA. Antonelli, showing great maturity as the championship leader, is expected to drive a calculated race to secure the title, while Piastri has consistently outperformed his teammate in recent high-stakes podium finishes."
+      "reason": "Max Verstappen has regained dominant form with consecutive wins in Malaysia and Singapore following Red Bull's breakthrough upgrade package. Andrea Kimi Antonelli is focused on securing his first world title at COTA and has shown the maturity to manage a podium finish, while Oscar Piastri remains a frequent podium visitor despite recent 'papaya rules' friction at McLaren."
     },
-    "predicted_at": "2026-10-14T02:20:51.823381Z"
+    "predicted_at": "2026-10-15T02:01:56.611797Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "McLaren enters the second half of 2026 with a major development push that Team Principal Andrea Stella believes will return them to dominance. While Red Bull has struggled in 2026 (sitting 4th in the standings), Verstappen's home-field advantage and historical performance at Zandvoort make him a lock for the podium. Norris is favored for the win given his high volume of victories in the latter half of 2025 and McLaren's current trajectory, while Piastri (the 2025 Zandvoort winner) remains a consistent top-three threat."
-      },
-      "predicted_at": "2026-08-18T00:28:14.476702Z"
-    },
     {
       "next_race": {
         "race_name": "Zandvoort",
@@ -917,6 +899,24 @@
         "reason": "Verstappen enters Austin with significant momentum following a dominant win in Singapore and a strong historical record at COTA. Antonelli, showing great maturity as the championship leader, is expected to drive a calculated race to secure the title, while Piastri has consistently outperformed his teammate in recent high-stakes podium finishes."
       },
       "predicted_at": "2026-10-14T02:20:51.823381Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Oscar Piastri"
+        },
+        "reason": "Max Verstappen has regained dominant form with consecutive wins in Malaysia and Singapore following Red Bull's breakthrough upgrade package. Andrea Kimi Antonelli is focused on securing his first world title at COTA and has shown the maturity to manage a podium finish, while Oscar Piastri remains a frequent podium visitor despite recent 'papaya rules' friction at McLaren."
+      },
+      "predicted_at": "2026-10-15T02:01:56.611797Z"
     }
   ]
 }
