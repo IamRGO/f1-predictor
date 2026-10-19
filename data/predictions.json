@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Andrea Kimi Antonelli",
-        "2nd": "Max Verstappen",
+        "1st": "Max Verstappen",
+        "2nd": "Andrea Kimi Antonelli",
         "3rd": "George Russell"
       },
-      "reason": "Championship leader Andrea Kimi Antonelli is positioned to clinch the 2026 title at the U.S. Grand Prix, backed by Mercedes' strong performance throughout the season. Max Verstappen remains a formidable challenger following his recent win in Singapore, while George Russell's consistency and Mercedes' pace at COTA favor a double podium for the team."
+      "reason": "Verstappen enters Austin with winning momentum from Singapore and a historically dominant record at COTA. Antonelli, known for his consistency in 2026, is expected to secure a podium to clinch the championship, while Russell remains a top contender in the Mercedes which has been strong throughout the 2026 season."
     },
-    "predicted_at": "2026-10-18T01:44:00.815744Z"
+    "predicted_at": "2026-10-19T02:01:40.478897Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Zandvoort",
-        "circuit": "Zandvoort",
-        "country": "Netherlands",
-        "date_start": "2026-08-23T13:00:00+00:00",
-        "meeting_key": 1292
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "George Russell",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Lando Norris secured pole position and is in peak form following a win in Hungary. George Russell won the Sprint race from pole and starts P2, demonstrating strong Mercedes race pace. Oscar Piastri, the 2025 Zandvoort winner, remains highly competitive in the superior McLaren, while home-favorite Max Verstappen faces a difficult race starting from 7th."
-      },
-      "predicted_at": "2026-08-23T00:31:21.043344Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Championship leader Andrea Kimi Antonelli is positioned to clinch the 2026 title at the U.S. Grand Prix, backed by Mercedes' strong performance throughout the season. Max Verstappen remains a formidable challenger following his recent win in Singapore, while George Russell's consistency and Mercedes' pace at COTA favor a double podium for the team."
       },
       "predicted_at": "2026-10-18T01:44:00.815744Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "George Russell"
+        },
+        "reason": "Verstappen enters Austin with winning momentum from Singapore and a historically dominant record at COTA. Antonelli, known for his consistency in 2026, is expected to secure a podium to clinch the championship, while Russell remains a top contender in the Mercedes which has been strong throughout the 2026 season."
+      },
+      "predicted_at": "2026-10-19T02:01:40.478897Z"
     }
   ]
 }
