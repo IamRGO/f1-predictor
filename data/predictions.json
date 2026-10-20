@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Max Verstappen",
-        "2nd": "Andrea Kimi Antonelli",
+        "1st": "Andrea Kimi Antonelli",
+        "2nd": "Max Verstappen",
         "3rd": "George Russell"
       },
-      "reason": "Verstappen enters Austin with winning momentum from Singapore and a historically dominant record at COTA. Antonelli, known for his consistency in 2026, is expected to secure a podium to clinch the championship, while Russell remains a top contender in the Mercedes which has been strong throughout the 2026 season."
+      "reason": "Andrea Kimi Antonelli enters the United States Grand Prix with the opportunity to clinch his first F1 world title, reflecting a dominant 2026 campaign for the Mercedes driver. While Max Verstappen remains a constant threat and 'imperious' challenger for Red Bull, the Mercedes package and Antonelli's championship-leading consistency make him the favorite to seal the win in Austin. George Russell is likely to round out the podium as Mercedes looks to secure both titles."
     },
-    "predicted_at": "2026-10-19T02:01:40.478897Z"
+    "predicted_at": "2026-10-20T02:18:36.693880Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "George Russell"
-        },
-        "reason": "Lando Norris enters Monza with significant momentum following back-to-back wins in Hungary and Zandvoort. While Max Verstappen is coming off a major crash, he is a Monza specialist and Red Bull's aerodynamic efficiency traditionally excels at the 'Temple of Speed.' George Russell is selected for third after showing superior pace in the Zandvoort sprint and qualifying, narrowly missing the podium in the previous race due to Mercedes team dynamics."
-      },
-      "predicted_at": "2026-08-24T00:30:15.237407Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Verstappen enters Austin with winning momentum from Singapore and a historically dominant record at COTA. Antonelli, known for his consistency in 2026, is expected to secure a podium to clinch the championship, while Russell remains a top contender in the Mercedes which has been strong throughout the 2026 season."
       },
       "predicted_at": "2026-10-19T02:01:40.478897Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "Max Verstappen",
+          "3rd": "George Russell"
+        },
+        "reason": "Andrea Kimi Antonelli enters the United States Grand Prix with the opportunity to clinch his first F1 world title, reflecting a dominant 2026 campaign for the Mercedes driver. While Max Verstappen remains a constant threat and 'imperious' challenger for Red Bull, the Mercedes package and Antonelli's championship-leading consistency make him the favorite to seal the win in Austin. George Russell is likely to round out the podium as Mercedes looks to secure both titles."
+      },
+      "predicted_at": "2026-10-20T02:18:36.693880Z"
     }
   ]
 }
