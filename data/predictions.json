@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Andrea Kimi Antonelli",
-        "2nd": "Max Verstappen",
-        "3rd": "George Russell"
+        "1st": "Max Verstappen",
+        "2nd": "Andrea Kimi Antonelli",
+        "3rd": "Lando Norris"
       },
-      "reason": "Andrea Kimi Antonelli enters the United States Grand Prix with the opportunity to clinch his first F1 world title, reflecting a dominant 2026 campaign for the Mercedes driver. While Max Verstappen remains a constant threat and 'imperious' challenger for Red Bull, the Mercedes package and Antonelli's championship-leading consistency make him the favorite to seal the win in Austin. George Russell is likely to round out the podium as Mercedes looks to secure both titles."
+      "reason": "Verstappen has a dominant historical record at COTA and recent news highlights a 'formidable' Red Bull resurgence. Antonelli is the 2026 championship leader and is currently on the verge of making history, while Norris remains the most consistent podium contender despite McLaren bringing only modest upgrades to this event."
     },
-    "predicted_at": "2026-10-20T02:18:36.693880Z"
+    "predicted_at": "2026-10-21T02:11:47.273714Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Kimi Antonelli",
-          "3rd": "Charles Leclerc"
-        },
-        "reason": "Lando Norris is currently the form driver with back-to-back victories and a McLaren that has overcome Mercedes' early-season dominance. Championship leader Kimi Antonelli remains a consistent podium threat for Mercedes, while Ferrari showed strong race pace at Zandvoort, positioning Leclerc well for a podium at their home race in Monza."
-      },
-      "predicted_at": "2026-08-25T00:29:42.285952Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Andrea Kimi Antonelli enters the United States Grand Prix with the opportunity to clinch his first F1 world title, reflecting a dominant 2026 campaign for the Mercedes driver. While Max Verstappen remains a constant threat and 'imperious' challenger for Red Bull, the Mercedes package and Antonelli's championship-leading consistency make him the favorite to seal the win in Austin. George Russell is likely to round out the podium as Mercedes looks to secure both titles."
       },
       "predicted_at": "2026-10-20T02:18:36.693880Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Lando Norris"
+        },
+        "reason": "Verstappen has a dominant historical record at COTA and recent news highlights a 'formidable' Red Bull resurgence. Antonelli is the 2026 championship leader and is currently on the verge of making history, while Norris remains the most consistent podium contender despite McLaren bringing only modest upgrades to this event."
+      },
+      "predicted_at": "2026-10-21T02:11:47.273714Z"
     }
   ]
 }
