@@ -13,29 +13,11 @@
         "2nd": "Andrea Kimi Antonelli",
         "3rd": "Lando Norris"
       },
-      "reason": "Verstappen has a dominant historical record at COTA and recent news highlights a 'formidable' Red Bull resurgence. Antonelli is the 2026 championship leader and is currently on the verge of making history, while Norris remains the most consistent podium contender despite McLaren bringing only modest upgrades to this event."
+      "reason": "Verstappen enters Austin on a two-race winning streak and has a dominant historical record at COTA. Antonelli, the championship leader, is poised to clinch the title and has shown consistent form all season. Norris remains the most consistent podium challenger from a McLaren team bringing upgrades to the circuit."
     },
-    "predicted_at": "2026-10-21T02:11:47.273714Z"
+    "predicted_at": "2026-10-23T02:10:58.309255Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Andrea Kimi Antonelli",
-          "3rd": "Max Verstappen"
-        },
-        "reason": "Lando Norris is in peak form with back-to-back victories and poles, showing that McLaren currently has the pace to challenge for the title. Andrea Kimi Antonelli, the championship leader and home favorite, has been consistently on the podium and will be highly motivated at Monza. Max Verstappen, the 2025 Monza winner, is expected to recover from a difficult Zandvoort weekend to secure a podium on this high-speed circuit."
-      },
-      "predicted_at": "2026-08-26T00:30:46.157753Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Verstappen has a dominant historical record at COTA and recent news highlights a 'formidable' Red Bull resurgence. Antonelli is the 2026 championship leader and is currently on the verge of making history, while Norris remains the most consistent podium contender despite McLaren bringing only modest upgrades to this event."
       },
       "predicted_at": "2026-10-21T02:11:47.273714Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Lando Norris"
+        },
+        "reason": "Verstappen enters Austin on a two-race winning streak and has a dominant historical record at COTA. Antonelli, the championship leader, is poised to clinch the title and has shown consistent form all season. Norris remains the most consistent podium challenger from a McLaren team bringing upgrades to the circuit."
+      },
+      "predicted_at": "2026-10-23T02:10:58.309255Z"
     }
   ]
 }
