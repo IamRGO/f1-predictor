@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Max Verstappen",
+        "1st": "Charles Leclerc",
         "2nd": "Andrea Kimi Antonelli",
-        "3rd": "Lando Norris"
+        "3rd": "Max Verstappen"
       },
-      "reason": "Verstappen enters Austin on a two-race winning streak and has a dominant historical record at COTA. Antonelli, the championship leader, is poised to clinch the title and has shown consistent form all season. Norris remains the most consistent podium challenger from a McLaren team bringing upgrades to the circuit."
+      "reason": "Leclerc dominated Friday practice by topping both sessions, showing superior pace at COTA. Antonelli is in championship-clinching form and finished second in FP2 with effective Mercedes upgrades, while Verstappen remains a consistent podium contender despite his complaints regarding the track's bumps."
     },
-    "predicted_at": "2026-10-23T02:10:58.309255Z"
+    "predicted_at": "2026-10-24T02:09:48.012533Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Lando Norris",
-          "3rd": "Lewis Hamilton"
-        },
-        "reason": "Max Verstappen is predicted to take the win as Red Bull still possesses the field's most powerful engine, a critical advantage at the high-speed Monza circuit, especially as he seeks redemption following his Zandvoort crash. Lando Norris continues his exceptional form after two consecutive wins, though Monza's power-dominant layout may favor Red Bull. Lewis Hamilton is tipped for a home-race podium for Ferrari, building on the strong pace he showed in Zandvoort and benefiting from Kimi Antonelli's grid penalty."
-      },
-      "predicted_at": "2026-08-27T05:18:54.000347Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Verstappen enters Austin on a two-race winning streak and has a dominant historical record at COTA. Antonelli, the championship leader, is poised to clinch the title and has shown consistent form all season. Norris remains the most consistent podium challenger from a McLaren team bringing upgrades to the circuit."
       },
       "predicted_at": "2026-10-23T02:10:58.309255Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Charles Leclerc",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Max Verstappen"
+        },
+        "reason": "Leclerc dominated Friday practice by topping both sessions, showing superior pace at COTA. Antonelli is in championship-clinching form and finished second in FP2 with effective Mercedes upgrades, while Verstappen remains a consistent podium contender despite his complaints regarding the track's bumps."
+      },
+      "predicted_at": "2026-10-24T02:09:48.012533Z"
     }
   ]
 }
