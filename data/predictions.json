@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Charles Leclerc",
-        "2nd": "Andrea Kimi Antonelli",
-        "3rd": "Max Verstappen"
+        "1st": "Andrea Kimi Antonelli",
+        "2nd": "Max Verstappen",
+        "3rd": "Charles Leclerc"
       },
-      "reason": "Leclerc dominated Friday practice by topping both sessions, showing superior pace at COTA. Antonelli is in championship-clinching form and finished second in FP2 with effective Mercedes upgrades, while Verstappen remains a consistent podium contender despite his complaints regarding the track's bumps."
+      "reason": "Kimi Antonelli is in top form starting from pole with the chance to clinch the title. Verstappen starts P2 and remains the most consistent threat, while Leclerc showed the strongest long-run pace in practice despite a qualifying slump, making him the favorite to overtake Hadjar for the final podium spot."
     },
-    "predicted_at": "2026-10-24T02:09:48.012533Z"
+    "predicted_at": "2026-10-25T01:56:15.656970Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Lando Norris is in peak form with back-to-back wins, and McLaren currently possesses the fastest car on the grid. While Max Verstappen benefits from Red Bull's superior engine power at Monza, the grid penalty for championship leader Kimi Antonelli significantly hampers Mercedes' chances, allowing Oscar Piastri to secure another podium for the dominant McLaren team."
-      },
-      "predicted_at": "2026-08-28T07:16:38.470205Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Leclerc dominated Friday practice by topping both sessions, showing superior pace at COTA. Antonelli is in championship-clinching form and finished second in FP2 with effective Mercedes upgrades, while Verstappen remains a consistent podium contender despite his complaints regarding the track's bumps."
       },
       "predicted_at": "2026-10-24T02:09:48.012533Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Austin",
+        "circuit": "Austin",
+        "country": "United States",
+        "date_start": "2026-10-25T20:00:00+00:00",
+        "meeting_key": 1297
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "Max Verstappen",
+          "3rd": "Charles Leclerc"
+        },
+        "reason": "Kimi Antonelli is in top form starting from pole with the chance to clinch the title. Verstappen starts P2 and remains the most consistent threat, while Leclerc showed the strongest long-run pace in practice despite a qualifying slump, making him the favorite to overtake Hadjar for the final podium spot."
+      },
+      "predicted_at": "2026-10-25T01:56:15.656970Z"
     }
   ]
 }
