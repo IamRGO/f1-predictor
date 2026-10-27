@@ -1,41 +1,23 @@
 {
   "latest": {
     "next_race": {
-      "race_name": "Austin",
-      "circuit": "Austin",
-      "country": "United States",
-      "date_start": "2026-10-25T20:00:00+00:00",
-      "meeting_key": 1297
+      "race_name": "Mexico City",
+      "circuit": "Mexico City",
+      "country": "Mexico",
+      "date_start": "2026-11-01T20:00:00+00:00",
+      "meeting_key": 1298
     },
     "prediction": {
       "podium": {
         "1st": "Andrea Kimi Antonelli",
-        "2nd": "Max Verstappen",
-        "3rd": "Charles Leclerc"
+        "2nd": "Charles Leclerc",
+        "3rd": "Max Verstappen"
       },
-      "reason": "Kimi Antonelli is in top form starting from pole with the chance to clinch the title. Verstappen starts P2 and remains the most consistent threat, while Leclerc showed the strongest long-run pace in practice despite a qualifying slump, making him the favorite to overtake Hadjar for the final podium spot."
+      "reason": "Kimi Antonelli is in dominant form with nine wins this season and a superior Mercedes W17, making him the favorite to clinch the title in Mexico. Charles Leclerc and Ferrari showed the most consistent pace to challenge Mercedes in Austin, while Max Verstappen remains a specialist at the high-altitude Mexico circuit despite Red Bull's recent struggles."
     },
-    "predicted_at": "2026-10-25T01:56:15.656970Z"
+    "predicted_at": "2026-10-27T02:35:40.391593Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Max Verstappen",
-          "2nd": "Lando Norris",
-          "3rd": "Lewis Hamilton"
-        },
-        "reason": "Red Bull still possesses the most powerful engine on the grid, which is a decisive advantage at high-speed Monza. While Lando Norris is in peak form with back-to-back wins, the power advantage favors Verstappen. Lewis Hamilton is predicted to take third, benefiting from Ferrari's home-turf motivation and championship leader Kimi Antonelli's grid penalty."
-      },
-      "predicted_at": "2026-08-29T04:27:47.133421Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Kimi Antonelli is in top form starting from pole with the chance to clinch the title. Verstappen starts P2 and remains the most consistent threat, while Leclerc showed the strongest long-run pace in practice despite a qualifying slump, making him the favorite to overtake Hadjar for the final podium spot."
       },
       "predicted_at": "2026-10-25T01:56:15.656970Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Mexico City",
+        "circuit": "Mexico City",
+        "country": "Mexico",
+        "date_start": "2026-11-01T20:00:00+00:00",
+        "meeting_key": 1298
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi Antonelli",
+          "2nd": "Charles Leclerc",
+          "3rd": "Max Verstappen"
+        },
+        "reason": "Kimi Antonelli is in dominant form with nine wins this season and a superior Mercedes W17, making him the favorite to clinch the title in Mexico. Charles Leclerc and Ferrari showed the most consistent pace to challenge Mercedes in Austin, while Max Verstappen remains a specialist at the high-altitude Mexico circuit despite Red Bull's recent struggles."
+      },
+      "predicted_at": "2026-10-27T02:35:40.391593Z"
     }
   ]
 }
