@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Kimi Antonelli",
-        "2nd": "Charles Leclerc",
-        "3rd": "Lando Norris"
+        "1st": "Charles Leclerc",
+        "2nd": "Lando Norris",
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "Kimi Antonelli is the dominant force of the 2026 season, recently winning in Austin and standing on the verge of the world title. While he missed media day due to illness, his pace advantage over teammate Russell and the rest of the field makes him the favorite. Charles Leclerc has expressed high confidence in Ferrari's potential for the high-altitude Mexico circuit, and Lando Norris is the defending winner of this Grand Prix with a consistently competitive McLaren."
+      "reason": "Charles Leclerc swept both Friday practice sessions, marking Ferrari as the clear favorite for the weekend. Lando Norris, the 2025 Mexico City GP winner, maintained strong momentum with a P2 in practice, while championship leader Andrea Kimi Antonelli showed front-running pace in FP1 and looks set to secure a podium as he nears the world title."
     },
-    "predicted_at": "2026-10-30T03:09:01.767724Z"
+    "predicted_at": "2026-10-31T02:54:52.431066Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Oscar Piastri"
-        },
-        "reason": "Lando Norris is the form driver with back-to-back victories and a dominant McLaren car following recent upgrades. Max Verstappen remains a primary threat at Monza due to Red Bull's engine power advantage on high-speed circuits. Oscar Piastri is a consistent podium finisher for the high-performing McLaren team, while championship leader Kimi Antonelli is excluded from the prediction due to a confirmed back-of-the-grid engine penalty."
-      },
-      "predicted_at": "2026-09-02T01:37:05.869764Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Kimi Antonelli is the dominant force of the 2026 season, recently winning in Austin and standing on the verge of the world title. While he missed media day due to illness, his pace advantage over teammate Russell and the rest of the field makes him the favorite. Charles Leclerc has expressed high confidence in Ferrari's potential for the high-altitude Mexico circuit, and Lando Norris is the defending winner of this Grand Prix with a consistently competitive McLaren."
       },
       "predicted_at": "2026-10-30T03:09:01.767724Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Mexico City",
+        "circuit": "Mexico City",
+        "country": "Mexico",
+        "date_start": "2026-11-01T20:00:00+00:00",
+        "meeting_key": 1298
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Charles Leclerc",
+          "2nd": "Lando Norris",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "Charles Leclerc swept both Friday practice sessions, marking Ferrari as the clear favorite for the weekend. Lando Norris, the 2025 Mexico City GP winner, maintained strong momentum with a P2 in practice, while championship leader Andrea Kimi Antonelli showed front-running pace in FP1 and looks set to secure a podium as he nears the world title."
+      },
+      "predicted_at": "2026-10-31T02:54:52.431066Z"
     }
   ]
 }
