@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Charles Leclerc",
-        "2nd": "Lando Norris",
-        "3rd": "Andrea Kimi Antonelli"
+        "1st": "Lewis Hamilton",
+        "2nd": "Charles Leclerc",
+        "3rd": "George Russell"
       },
-      "reason": "Charles Leclerc swept both Friday practice sessions, marking Ferrari as the clear favorite for the weekend. Lando Norris, the 2025 Mexico City GP winner, maintained strong momentum with a P2 in practice, while championship leader Andrea Kimi Antonelli showed front-running pace in FP1 and looks set to secure a podium as he nears the world title."
+      "reason": "Lewis Hamilton starts on pole for Ferrari with strong momentum, while teammate Charles Leclerc swept both Friday practice sessions and shows the best overall race pace. George Russell starts on the front row (P2), but the Ferraris appear to be the class of the field in Mexico City, while Max Verstappen (P5) and Lando Norris (P6) struggled in qualifying."
     },
-    "predicted_at": "2026-10-31T02:54:52.431066Z"
+    "predicted_at": "2026-11-01T02:48:28.096719Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Charles Leclerc"
-        },
-        "reason": "Defending champion Norris benefits from McLaren's Monza-specific 'H-Wing' and strong 2025 momentum. Verstappen remains a high-speed specialist who won here last year, while Leclerc is tipped for the podium due to Ferrari's home-race engine upgrade and Kimi Antonelli's grid penalty."
-      },
-      "predicted_at": "2026-09-03T01:41:15.709647Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Charles Leclerc swept both Friday practice sessions, marking Ferrari as the clear favorite for the weekend. Lando Norris, the 2025 Mexico City GP winner, maintained strong momentum with a P2 in practice, while championship leader Andrea Kimi Antonelli showed front-running pace in FP1 and looks set to secure a podium as he nears the world title."
       },
       "predicted_at": "2026-10-31T02:54:52.431066Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Mexico City",
+        "circuit": "Mexico City",
+        "country": "Mexico",
+        "date_start": "2026-11-01T20:00:00+00:00",
+        "meeting_key": 1298
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Lewis Hamilton",
+          "2nd": "Charles Leclerc",
+          "3rd": "George Russell"
+        },
+        "reason": "Lewis Hamilton starts on pole for Ferrari with strong momentum, while teammate Charles Leclerc swept both Friday practice sessions and shows the best overall race pace. George Russell starts on the front row (P2), but the Ferraris appear to be the class of the field in Mexico City, while Max Verstappen (P5) and Lando Norris (P6) struggled in qualifying."
+      },
+      "predicted_at": "2026-11-01T02:48:28.096719Z"
     }
   ]
 }
