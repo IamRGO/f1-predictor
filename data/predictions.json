@@ -1,41 +1,23 @@
 {
   "latest": {
     "next_race": {
-      "race_name": "Mexico City",
-      "circuit": "Mexico City",
-      "country": "Mexico",
-      "date_start": "2026-11-01T20:00:00+00:00",
-      "meeting_key": 1298
+      "race_name": "Interlagos",
+      "circuit": "Interlagos",
+      "country": "Brazil",
+      "date_start": "2026-11-08T17:00:00+00:00",
+      "meeting_key": 1299
     },
     "prediction": {
       "podium": {
-        "1st": "Lewis Hamilton",
-        "2nd": "Charles Leclerc",
-        "3rd": "George Russell"
+        "1st": "Lando Norris",
+        "2nd": "Max Verstappen",
+        "3rd": "Andrea Kimi Antonelli"
       },
-      "reason": "Lewis Hamilton starts on pole for Ferrari with strong momentum, while teammate Charles Leclerc swept both Friday practice sessions and shows the best overall race pace. George Russell starts on the front row (P2), but the Ferraris appear to be the class of the field in Mexico City, while Max Verstappen (P5) and Lando Norris (P6) struggled in qualifying."
+      "reason": "Norris dominated both races at Interlagos in 2025 and remains a specialist at this circuit. Verstappen carries momentum from his Mexico City victory, while newly crowned world champion Antonelli is expected to maintain his podium form at a track where he secured a double P2 finish last season."
     },
-    "predicted_at": "2026-11-01T02:48:28.096719Z"
+    "predicted_at": "2026-11-02T02:56:15.615915Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Lando Norris",
-          "2nd": "Max Verstappen",
-          "3rd": "Lewis Hamilton"
-        },
-        "reason": "Norris is in peak form seeking a victory hat-trick after winning the previous two rounds. Verstappen is motivated to recover from a recent DNF, while Hamilton is poised to benefit from Ferrari's Monza-specific power unit upgrade and the emotional boost of his first Italian GP in red."
-      },
-      "predicted_at": "2026-09-04T01:34:59.232067Z"
-    },
     {
       "next_race": {
         "race_name": "Monza",
@@ -917,6 +899,24 @@
         "reason": "Lewis Hamilton starts on pole for Ferrari with strong momentum, while teammate Charles Leclerc swept both Friday practice sessions and shows the best overall race pace. George Russell starts on the front row (P2), but the Ferraris appear to be the class of the field in Mexico City, while Max Verstappen (P5) and Lando Norris (P6) struggled in qualifying."
       },
       "predicted_at": "2026-11-01T02:48:28.096719Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Interlagos",
+        "circuit": "Interlagos",
+        "country": "Brazil",
+        "date_start": "2026-11-08T17:00:00+00:00",
+        "meeting_key": 1299
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Lando Norris",
+          "2nd": "Max Verstappen",
+          "3rd": "Andrea Kimi Antonelli"
+        },
+        "reason": "Norris dominated both races at Interlagos in 2025 and remains a specialist at this circuit. Verstappen carries momentum from his Mexico City victory, while newly crowned world champion Antonelli is expected to maintain his podium form at a track where he secured a double P2 finish last season."
+      },
+      "predicted_at": "2026-11-02T02:56:15.615915Z"
     }
   ]
 }
