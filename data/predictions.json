@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Lando Norris",
-        "2nd": "Max Verstappen",
-        "3rd": "Andrea Kimi Antonelli"
+        "1st": "Max Verstappen",
+        "2nd": "Andrea Kimi Antonelli",
+        "3rd": "Lando Norris"
       },
-      "reason": "Norris dominated both races at Interlagos in 2025 and remains a specialist at this circuit. Verstappen carries momentum from his Mexico City victory, while newly crowned world champion Antonelli is expected to maintain his podium form at a track where he secured a double P2 finish last season."
+      "reason": "Max Verstappen carries momentum from his dominant Mexico City victory, while newly-crowned champion Andrea Kimi Antonelli remains in peak form. Lando Norris is included due to his exceptional track history at Interlagos, having won both races there in the 2025 season."
     },
-    "predicted_at": "2026-11-02T02:56:15.615915Z"
+    "predicted_at": "2026-11-03T04:14:04.956374Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Monza",
-        "circuit": "Monza",
-        "country": "Italy",
-        "date_start": "2026-09-06T13:00:00+00:00",
-        "meeting_key": 1293
-      },
-      "prediction": {
-        "podium": {
-          "1st": "George Russell",
-          "2nd": "Pierre Gasly",
-          "3rd": "Charles Leclerc"
-        },
-        "reason": "Pierre Gasly took a shock pole position, but George Russell showed dominant pace throughout practice and starts 2nd in a Mercedes that currently holds a power advantage over Ferrari. Gasly has a strong history at Monza and will likely hold onto a podium spot, while Leclerc, starting 4th, is promoted by Oscar Piastri's 3-place grid penalty and will be highly motivated at Ferrari's home race."
-      },
-      "predicted_at": "2026-09-06T01:30:43.069629Z"
-    },
     {
       "next_race": {
         "race_name": "Madring",
@@ -917,6 +899,24 @@
         "reason": "Norris dominated both races at Interlagos in 2025 and remains a specialist at this circuit. Verstappen carries momentum from his Mexico City victory, while newly crowned world champion Antonelli is expected to maintain his podium form at a track where he secured a double P2 finish last season."
       },
       "predicted_at": "2026-11-02T02:56:15.615915Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Interlagos",
+        "circuit": "Interlagos",
+        "country": "Brazil",
+        "date_start": "2026-11-08T17:00:00+00:00",
+        "meeting_key": 1299
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Max Verstappen",
+          "2nd": "Andrea Kimi Antonelli",
+          "3rd": "Lando Norris"
+        },
+        "reason": "Max Verstappen carries momentum from his dominant Mexico City victory, while newly-crowned champion Andrea Kimi Antonelli remains in peak form. Lando Norris is included due to his exceptional track history at Interlagos, having won both races there in the 2025 season."
+      },
+      "predicted_at": "2026-11-03T04:14:04.956374Z"
     }
   ]
 }
