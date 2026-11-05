@@ -9,33 +9,15 @@
     },
     "prediction": {
       "podium": {
-        "1st": "Lando Norris",
-        "2nd": "Andrea Kimi Antonelli",
-        "3rd": "Max Verstappen"
+        "1st": "Andrea Kimi ANTONELLI",
+        "2nd": "Max VERSTAPPEN",
+        "3rd": "Lando NORRIS"
       },
-      "reason": "Lando Norris dominated Interlagos in 2025 with two wins, making him the favorite. Newly crowned 2026 champion Kimi Antonelli maintains his podium streak for Mercedes, while Max Verstappen carries momentum from his recent victory in Mexico City despite Ferrari's internal team struggles."
+      "reason": "Antonelli enters Brazil with momentum as the newly crowned youngest world champion, and Mercedes is poised to clinch the Teams' Championship. Verstappen remains a top contender following his victory in Mexico, while Norris has a strong history at Interlagos, including multiple wins in the previous season."
     },
-    "predicted_at": "2026-11-04T03:31:59.193632Z"
+    "predicted_at": "2026-11-05T03:53:33.846883Z"
   },
   "history": [
-    {
-      "next_race": {
-        "race_name": "Madring",
-        "circuit": "Madring",
-        "country": "Spain",
-        "date_start": "2026-09-13T13:00:00+00:00",
-        "meeting_key": 1294
-      },
-      "prediction": {
-        "podium": {
-          "1st": "Andrea Kimi Antonelli",
-          "2nd": "George Russell",
-          "3rd": "Max Verstappen"
-        },
-        "reason": "Mercedes is currently the dominant force following a 1-2 finish at Monza, with Kimi Antonelli leading the championship and showing 'generational talent' form. While Ferrari expects to bounce back, Leclerc is recovering from a heavy crash and Mercedes' technical advantage makes them favorites for the new Madrid circuit, with Verstappen consistently securing podiums as Red Bull improves."
-      },
-      "predicted_at": "2026-09-08T01:38:26.549069Z"
-    },
     {
       "next_race": {
         "race_name": "Madring",
@@ -917,6 +899,24 @@
         "reason": "Lando Norris dominated Interlagos in 2025 with two wins, making him the favorite. Newly crowned 2026 champion Kimi Antonelli maintains his podium streak for Mercedes, while Max Verstappen carries momentum from his recent victory in Mexico City despite Ferrari's internal team struggles."
       },
       "predicted_at": "2026-11-04T03:31:59.193632Z"
+    },
+    {
+      "next_race": {
+        "race_name": "Interlagos",
+        "circuit": "Interlagos",
+        "country": "Brazil",
+        "date_start": "2026-11-08T17:00:00+00:00",
+        "meeting_key": 1299
+      },
+      "prediction": {
+        "podium": {
+          "1st": "Andrea Kimi ANTONELLI",
+          "2nd": "Max VERSTAPPEN",
+          "3rd": "Lando NORRIS"
+        },
+        "reason": "Antonelli enters Brazil with momentum as the newly crowned youngest world champion, and Mercedes is poised to clinch the Teams' Championship. Verstappen remains a top contender following his victory in Mexico, while Norris has a strong history at Interlagos, including multiple wins in the previous season."
+      },
+      "predicted_at": "2026-11-05T03:53:33.846883Z"
     }
   ]
 }
